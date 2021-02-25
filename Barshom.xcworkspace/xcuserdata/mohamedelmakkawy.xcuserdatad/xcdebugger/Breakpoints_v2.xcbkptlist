@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0B3AEE69-D71D-4F95-B04E-974C3BCC4C5F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F181BC90-E01A-49FA-AA51-058E944BC39D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Barshom/AppClasses/tabbrVCs/mainTabControllers/home/MainHomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3CF3BF5-1EB9-4043-8B50-91AC7EDCF39A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Barshom/Utilites/sheetPresntModel/AppNavController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "B3CF3BF5-1EB9-4043-8B50-91AC7EDCF39A - 9a95ee5e5192b981"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barshom.AppNavController.__deallocating_deinit"
+                  moduleName = "Barshom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedelmakkawy/Desktop/Fras_waled/Projects/Barshom/Barshom/Utilites/sheetPresntModel/AppNavController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "B3CF3BF5-1EB9-4043-8B50-91AC7EDCF39A - 897903135b0736c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barshom.AppNavController.__allocating_init(navigationBarClass: Swift.Optional&lt;Swift.AnyObject.Type&gt;, toolbarClass: Swift.Optional&lt;Swift.AnyObject.Type&gt;) -&gt; Barshom.AppNavController"
+                  moduleName = "Barshom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedelmakkawy/Desktop/Fras_waled/Projects/Barshom/Barshom/Utilites/sheetPresntModel/AppNavController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "B3CF3BF5-1EB9-4043-8B50-91AC7EDCF39A - 29fc0aaf79d48ac2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barshom.AppNavController.init(navigationBarClass: Swift.Optional&lt;Swift.AnyObject.Type&gt;, toolbarClass: Swift.Optional&lt;Swift.AnyObject.Type&gt;) -&gt; Barshom.AppNavController"
+                  moduleName = "Barshom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedelmakkawy/Desktop/Fras_waled/Projects/Barshom/Barshom/Utilites/sheetPresntModel/AppNavController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "319">
+               </Location>
+               <Location
+                  uuid = "B3CF3BF5-1EB9-4043-8B50-91AC7EDCF39A - bed2cf58c050cdd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barshom.AppNavController.__allocating_init(rootViewController: __C.UIViewController) -&gt; Barshom.AppNavController"
+                  moduleName = "Barshom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedelmakkawy/Desktop/Fras_waled/Projects/Barshom/Barshom/Utilites/sheetPresntModel/AppNavController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "B3CF3BF5-1EB9-4043-8B50-91AC7EDCF39A - 54da7c7c4aad8bc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barshom.AppNavController.init(rootViewController: __C.UIViewController) -&gt; Barshom.AppNavController"
+                  moduleName = "Barshom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedelmakkawy/Desktop/Fras_waled/Projects/Barshom/Barshom/Utilites/sheetPresntModel/AppNavController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "B3CF3BF5-1EB9-4043-8B50-91AC7EDCF39A - 5dcece30159d0d15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barshom.AppNavController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Barshom.AppNavController"
+                  moduleName = "Barshom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedelmakkawy/Desktop/Fras_waled/Projects/Barshom/Barshom/Utilites/sheetPresntModel/AppNavController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "B3CF3BF5-1EB9-4043-8B50-91AC7EDCF39A - 6b4437f65433fb4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barshom.AppNavController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Barshom.AppNavController"
+                  moduleName = "Barshom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedelmakkawy/Desktop/Fras_waled/Projects/Barshom/Barshom/Utilites/sheetPresntModel/AppNavController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "386">
+               </Location>
+               <Location
+                  uuid = "B3CF3BF5-1EB9-4043-8B50-91AC7EDCF39A - 77386a0fc742f250"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barshom.AppNavController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Barshom.AppNavController&gt;"
+                  moduleName = "Barshom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedelmakkawy/Desktop/Fras_waled/Projects/Barshom/Barshom/Utilites/sheetPresntModel/AppNavController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "B3CF3BF5-1EB9-4043-8B50-91AC7EDCF39A - 31522ba97b83ec8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Barshom.AppNavController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Barshom.AppNavController&gt;"
+                  moduleName = "Barshom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohamedelmakkawy/Desktop/Fras_waled/Projects/Barshom/Barshom/Utilites/sheetPresntModel/AppNavController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "239">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73D37F00-94A1-4106-B8EC-8F3D27FF0659"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Barshom/AppClasses/baseSideMenu/interactors/sideMenu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getMenu(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BECB0C8-C451-4F64-8A8D-4E3F00C96B34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Barshom/AppClasses/baseSideMenu/interactors/sideMenu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "getMenuBytype()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6096D43A-2785-4BA4-BE77-4D1F697AA545"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Barshom/AppClasses/baseSideMenu/Controller/sideMenuTVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "changeMenuType(notification:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

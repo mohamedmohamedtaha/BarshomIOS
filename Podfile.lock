@@ -1,0 +1,99 @@
+PODS:
+  - Alamofire (5.4.1)
+  - CCMPopup (1.1.0)
+  - Cosmos (23.0.0)
+  - DropDown (2.3.13)
+  - DZNEmptyDataSet (1.8.1)
+  - GMStepper (2.2)
+  - HRRoundAndBorderedView (1.3)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JVFloatLabeledTextField (1.2.2)
+  - MBProgressHUD (1.2.0)
+  - NitroMath (1.1.0)
+  - NitroNSDictionaryCategories (1.1.0)
+  - NitroUIColorCategories (1.1.1):
+    - NitroMath (~> 1.1.0)
+    - NitroNSDictionaryCategories (~> 1.1.0)
+  - ObjectMapper (4.2.0)
+  - Reachability (3.2)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+  - SideMenu (6.5.0)
+  - SwiftyUserDefaults (5.0.0)
+  - Toaster (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CCMPopup
+  - Cosmos
+  - DropDown
+  - DZNEmptyDataSet
+  - GMStepper
+  - HRRoundAndBorderedView
+  - IQKeyboardManagerSwift
+  - JVFloatLabeledTextField
+  - MBProgressHUD
+  - NitroUIColorCategories
+  - ObjectMapper
+  - Reachability
+  - SDWebImage
+  - SideMenu
+  - SwiftyUserDefaults
+  - Toaster (from `https://github.com/devxoul/Toaster.git`, branch `master`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CCMPopup
+    - Cosmos
+    - DropDown
+    - DZNEmptyDataSet
+    - GMStepper
+    - HRRoundAndBorderedView
+    - IQKeyboardManagerSwift
+    - JVFloatLabeledTextField
+    - MBProgressHUD
+    - NitroMath
+    - NitroNSDictionaryCategories
+    - NitroUIColorCategories
+    - ObjectMapper
+    - Reachability
+    - SDWebImage
+    - SideMenu
+    - SwiftyUserDefaults
+
+EXTERNAL SOURCES:
+  Toaster:
+    :branch: master
+    :git: https://github.com/devxoul/Toaster.git
+
+CHECKOUT OPTIONS:
+  Toaster:
+    :commit: 0fca711c4083cb921cc0893a7a47836358ebf96b
+    :git: https://github.com/devxoul/Toaster.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  CCMPopup: e41fad5b8a0823c9cddea8eab6d431670c9dabe5
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  GMStepper: 89fb106944dfcc3aa3add7164e3ebd463ea2104b
+  HRRoundAndBorderedView: e9f2b48f9a90ed2fd0b707539df065c2488cfc8f
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JVFloatLabeledTextField: df48598472ee015701d509f43e59492a0d4ca208
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  NitroMath: 9402e21acb9687ce46cb48ceb9a5fa86d40aaee2
+  NitroNSDictionaryCategories: 8d86cbfbcb7b6b2d69071314330ac11283137ae9
+  NitroUIColorCategories: f6d844ac23380050f1d402c518681da8da959191
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SwiftyUserDefaults: 33fcb42bd1feb53a37d873feb62c82967db5f7f6
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+
+PODFILE CHECKSUM: b7e5eb5b61312223a4bc6c5ef68b8b547fc08d0f
+
+COCOAPODS: 1.10.0
