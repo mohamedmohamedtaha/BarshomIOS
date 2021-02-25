@@ -180,6 +180,8 @@
 		93FBACCD259C9A9A00756E76 /* complaint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FBACCC259C9A9900756E76 /* complaint.storyboard */; };
 		93FBACD0259C9CBE00756E76 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FBACCF259C9CBE00756E76 /* AppStoryboard.swift */; };
 		93FFACE525A1FF1400526F25 /* RVTxtFaild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFACE425A1FF1400526F25 /* RVTxtFaild.swift */; };
+		FA6390A325E7D9AB0004F586 /* WebserviceMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6390A125E7D9AA0004F586 /* WebserviceMananger.swift */; };
+		FA6390A425E7D9AB0004F586 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6390A225E7D9AB0004F586 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -361,6 +363,8 @@
 		93FBACCF259C9CBE00756E76 /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		93FFACE425A1FF1400526F25 /* RVTxtFaild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVTxtFaild.swift; sourceTree = "<group>"; };
 		A662A06F787E89BE95EBBA92 /* Pods-Barshom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barshom.release.xcconfig"; path = "Target Support Files/Pods-Barshom/Pods-Barshom.release.xcconfig"; sourceTree = "<group>"; };
+		FA6390A125E7D9AA0004F586 /* WebserviceMananger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceMananger.swift; sourceTree = "<group>"; };
+		FA6390A225E7D9AB0004F586 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1094,6 +1098,7 @@
 		93A1DE6925A61D9500CC308F /* registration */ = {
 			isa = PBXGroup;
 			children = (
+				FA63907A25E7D9460004F586 /* Model */,
 				93A1DE6B25A61E1000CC308F /* controllers */,
 				93A1DE6A25A61DBE00CC308F /* Views */,
 			);
@@ -1113,8 +1118,8 @@
 			isa = PBXGroup;
 			children = (
 				937E6BD425A9DF1D0000A991 /* forgetPAssword */,
-				93A1DE8225A630D500CC308F /* loginTVC.swift */,
-				937E6BCE25A9D82C0000A991 /* signUpTVC.swift */,
+				FA63907725E7D9120004F586 /* login */,
+				FA63907825E7D9200004F586 /* signUp */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -1206,6 +1211,7 @@
 		93CC408F2590A24D00275299 /* Barshom */ = {
 			isa = PBXGroup;
 			children = (
+				FA63907925E7D9350004F586 /* Network */,
 				93CC409E2590A25200275299 /* Info.plist */,
 				932962632590AB2E0030563E /* assets */,
 				9329626F2590AC160030563E /* Utilites */,
@@ -1561,6 +1567,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA63907725E7D9120004F586 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				93A1DE8225A630D500CC308F /* loginTVC.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		FA63907825E7D9200004F586 /* signUp */ = {
+			isa = PBXGroup;
+			children = (
+				937E6BCE25A9D82C0000A991 /* signUpTVC.swift */,
+			);
+			path = signUp;
+			sourceTree = "<group>";
+		};
+		FA63907925E7D9350004F586 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FA6390A025E7D9870004F586 /* networkManager */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FA63907A25E7D9460004F586 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA6390A025E7D9870004F586 /* networkManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA6390A225E7D9AB0004F586 /* Reachability.swift */,
+				FA6390A125E7D9AA0004F586 /* WebserviceMananger.swift */,
+			);
+			path = networkManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1734,6 +1780,7 @@
 			files = (
 				93125F7325975BF7001A7C1B /* barshomStoreVC.swift in Sources */,
 				932962862590AC160030563E /* Filter.swift in Sources */,
+				FA6390A425E7D9AB0004F586 /* Reachability.swift in Sources */,
 				93FA020725AC8DA60072452D /* sideMenu.swift in Sources */,
 				937E6BDD25A9E6840000A991 /* activateCodeVC.swift in Sources */,
 				93A1DE4A25A6101800CC308F /* profileTVC.swift in Sources */,
@@ -1794,6 +1841,7 @@
 				938314A4259B86AD009F0758 /* subscribePackageDetailsVC.swift in Sources */,
 				932962832590AC160030563E /* extentions.swift in Sources */,
 				932962DE2590D0750030563E /* topSectionCell.swift in Sources */,
+				FA6390A325E7D9AB0004F586 /* WebserviceMananger.swift in Sources */,
 				93884DD1259E0FC7005320DA /* paymentTypeActionVC.swift in Sources */,
 				9383146C259B324F009F0758 /* appointmentsHeaderCell.swift in Sources */,
 				93F2608B2598D33F007B230E /* ratesVC.swift in Sources */,

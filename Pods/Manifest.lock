@@ -15,6 +15,7 @@ PODS:
     - NitroMath (~> 1.1.0)
     - NitroNSDictionaryCategories (~> 1.1.0)
   - ObjectMapper (4.2.0)
+  - PKHUD (5.3.0)
   - Reachability (3.2)
   - SDWebImage (5.10.2):
     - SDWebImage/Core (= 5.10.2)
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - MBProgressHUD
   - NitroUIColorCategories
   - ObjectMapper
+  - PKHUD
   - Reachability
   - SDWebImage
   - SideMenu
@@ -58,6 +60,7 @@ SPEC REPOS:
     - NitroNSDictionaryCategories
     - NitroUIColorCategories
     - ObjectMapper
+    - PKHUD
     - Reachability
     - SDWebImage
     - SideMenu
@@ -88,12 +91,13 @@ SPEC CHECKSUMS:
   NitroNSDictionaryCategories: 8d86cbfbcb7b6b2d69071314330ac11283137ae9
   NitroUIColorCategories: f6d844ac23380050f1d402c518681da8da959191
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
   SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
   SwiftyUserDefaults: 33fcb42bd1feb53a37d873feb62c82967db5f7f6
   Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
 
-PODFILE CHECKSUM: b7e5eb5b61312223a4bc6c5ef68b8b547fc08d0f
+PODFILE CHECKSUM: 37ca69cf306834a5243fc1fb895711d621c3088b
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

@@ -20,6 +20,7 @@ pod 'JVFloatLabeledTextField'
 pod 'Cosmos'
 pod 'SideMenu'
 pod 'GMStepper'
+pod 'PKHUD'
 #pod 'TextFieldEffects'
 
 post_install do |installer|
