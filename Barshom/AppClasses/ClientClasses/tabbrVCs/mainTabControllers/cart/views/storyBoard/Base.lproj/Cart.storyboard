@@ -695,7 +695,7 @@
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7tw-aC-yWa">
                                                             <rect key="frame" x="126.5" y="0.0" width="121" height="130"/>
                                                             <subviews>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="E76-sP-gA9">
+                                                                <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="E76-sP-gA9">
                                                                     <rect key="frame" x="5" y="10.5" width="111" height="109.5"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="epayment" translatesAutoresizingMaskIntoConstraints="NO" id="N62-KD-2lg">
@@ -744,7 +744,7 @@
                                                                         </view>
                                                                     </subviews>
                                                                 </stackView>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lvi-CW-Wfc">
+                                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lvi-CW-Wfc">
                                                                     <rect key="frame" x="0.0" y="0.0" width="121" height="130"/>
                                                                     <connections>
                                                                         <action selector="ePaymentAction:" destination="yvv-i1-AJh" eventType="touchUpInside" id="iBm-3m-lET"/>
@@ -2008,32 +2008,6 @@
             <point key="canvasLocation" x="3016" y="215"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="1jl-IS-vXJ">
-            <size key="intrinsicContentSize" width="113.5" height="18.5"/>
-        </designable>
-        <designable name="1tU-qx-1aJ">
-            <size key="intrinsicContentSize" width="74" height="18.5"/>
-        </designable>
-        <designable name="O2d-8i-NP8">
-            <size key="intrinsicContentSize" width="97" height="18.5"/>
-        </designable>
-        <designable name="S5K-b5-CAf">
-            <size key="intrinsicContentSize" width="113.5" height="18.5"/>
-        </designable>
-        <designable name="UmE-Qo-5Id">
-            <size key="intrinsicContentSize" width="97" height="18.5"/>
-        </designable>
-        <designable name="ed4-aM-qmr">
-            <size key="intrinsicContentSize" width="85" height="18.5"/>
-        </designable>
-        <designable name="ker-eB-37z">
-            <size key="intrinsicContentSize" width="85" height="18.5"/>
-        </designable>
-        <designable name="p7f-Sr-NpV">
-            <size key="intrinsicContentSize" width="109.5" height="18.5"/>
-        </designable>
-    </designables>
     <resources>
         <image name="arrowDown" width="10.5" height="6"/>
         <image name="bankTransfer" width="60" height="60"/>
