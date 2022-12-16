@@ -20,8 +20,8 @@ class appointmentsHeaderCell: UITableViewCell {
   
   func cellConfigration(_ title:String){
     titleLb.text = title
-    dayBg.round((Language.currentLanguage() == "ar" ? [.topRight]:[.topLeft]), corner: 20)
-    lastBg.round((Language.currentLanguage() == "ar" ? [.topLeft]:[.topRight]), corner: 20)
+    dayBg.round((LanguageManager.isArabic ? [.topRight]:[.topLeft]), corner: 20)
+    lastBg.round((LanguageManager.isArabic ? [.topLeft]:[.topRight]), corner: 20)
   }
     
 }

@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Recharge"; ObjectID = "ANc-dk-gN0"; */
+"ANc-dk-gN0.normalTitle" = "سحب الرصيد";
+
+/* Class = "UILabel"; text = "220 SAR"; ObjectID = "UrQ-mz-Jzu"; */
+"UrQ-mz-Jzu.text" = "220 SAR";
+
+/* Class = "UILabel"; text = "Previous balance withdrawals"; ObjectID = "bop-y7-lLS"; */
+"bop-y7-lLS.text" = "عمليات السحب السابقة";
+
+/* Class = "UILabel"; text = "Current Balance"; ObjectID = "cKM-28-78e"; */
+"cKM-28-78e.text" = "الرصيد الحالي";
+
+/* Class = "UILabel"; text = "Current Balance"; ObjectID = "uYp-tc-LpP"; */
+"uYp-tc-LpP.text" = "الرصيد الحالي";

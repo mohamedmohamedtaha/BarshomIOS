@@ -16,15 +16,15 @@ enum driverMenuType:String {
     case complaint = "Complaint/Tickets"
     case langue = "Language"
     case notifications = "Notifications"
-    case termsAndConditions = "terms And Conditions"
+    case termsAndConditions = "Driver Terms & Conditions"
     case questions = "Questions"
     case aboutApp = "About App"
     case contactUs = "Contact Us"
-    case logOut = "Log Out"
+    case logOut = "Logout"
    
   
   init?(str: String) {
-      self.init(rawValue:str.Localized)
+      self.init(rawValue:str)
   }
 }
 
@@ -58,39 +58,56 @@ class driverSideMenu {
     print(Type)
     switch Type{
     case .myOrders:
-      let wallet = driverOrderVC.instantiate(.traderOrders)
-      vc.show(wallet, sender: nil)
+        break
     case .driverInformation:
       let profile = driverProfileTVC.instantiate(.driverProfile)
+        vc.navigationController?.isNavigationBarHidden = false
+
       vc.show(profile, sender: nil)
     case .Balance:
       let b = balanceVC.instantiate(.balance)
+        vc.navigationController?.isNavigationBarHidden = false
+
       vc.show(b, sender: nil)
     case .complaint:
-      let packages = complaintListVC.instantiate(.complaint)
-      vc.show(packages, sender: nil)
+        let packages = complaintListVC.instantiate(.complaint)
+          vc.navigationController?.isNavigationBarHidden = false
+
+        vc.show(packages, sender: nil)
     case .langue:
       sheetPresenter.opensheetVC(vc, storeyBoard: .language, screenHeight: 1.3)
     case .notifications:
       let notification = notificationVC.instantiate(.Main)
       notification.navigationItem.leftBarButtonItems = nil
+        vc.navigationController?.isNavigationBarHidden = false
+
       vc.show(notification, sender: nil)
-    case .termsAndConditions:
-      let packages = aboutVC.instantiate(.terms)
-      packages.type = .terms
-      vc.show(packages, sender: nil)
+    
     case .questions:
-      print(Type)
+        let packages = faqVC.instantiate(.faq)
+        vc.navigationController?.isNavigationBarHidden = false
+
+        vc.show(packages, sender: nil)
     case .aboutApp:
       let packages = aboutVC.instantiate(.terms)
+        vc.navigationController?.isNavigationBarHidden = false
+
       packages.type = .about
       vc.show(packages, sender: nil)
-    case .contactUs:
-      let packages = contactUsTVC.instantiate(.contactUs)
+    case .termsAndConditions:
+      let packages = aboutVC.instantiate(.terms)
+        vc.navigationController?.isNavigationBarHidden = false
+        packages.userType = "worker"
+
+      packages.type = .terms
       vc.show(packages, sender: nil)
+    case .contactUs:
+        let packages = contactUsTVC.instantiate(.contactUs)
+          vc.navigationController?.isNavigationBarHidden = false
+        vc.show(packages, sender: nil)
     case .logOut:
-      let nav = AppStoryboard.registration.instance.instantiateViewController(withIdentifier: "loginNav")
-      vc.present(nav, animated: true, completion: nil)
+        UserManager.logout()
+        vc.MakeHomeRoot()
     }
     
     if ((Type != .langue) && (Type != .logOut)) {

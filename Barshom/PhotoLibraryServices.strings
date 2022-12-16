@@ -1,0 +1,10 @@
+/* 
+  CameraUI.strings
+  ArtFood-Trader
+
+  Created by Ahmed Yehia on 14/03/2021.
+  
+*/
+"PHOTOS" = "Photos";
+"CAMERA_ROLL" = "Camera roll";
+"ALL_SCREENSHOTS" = "Screenshots";

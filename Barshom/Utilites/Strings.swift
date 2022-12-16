@@ -11,6 +11,7 @@ import Foundation
 struct Strings {
 
     static let SubscriptionsPackages = "Subscriptions and packages"
+    static let NewSubscribtion = "Subscribe now"
     static let Products = "Products"
     static let appointmentsAvailable = "All appointments available"
     static let ProductsInPackage = "Products In Package"

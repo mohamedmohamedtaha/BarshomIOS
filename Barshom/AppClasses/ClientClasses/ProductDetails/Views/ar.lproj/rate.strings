@@ -1,0 +1,17 @@
+
+/* Class = "UINavigationItem"; title = "Your Rate"; ObjectID = "4pU-Kz-Zle"; */
+"4pU-Kz-Zle.title" = "حدد تقييمك";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "Qyt-vF-Zv0"; */
+"Qyt-vF-Zv0.normalTitle" = "إضافة";
+
+/* Class = "UIViewController"; title = "Modal view"; ObjectID = "UAt-0U-fbQ"; */
+"UAt-0U-fbQ.title" = "Modal view";
+
+/* Class = "UIButton"; normalTitle = "✕"; ObjectID = "c65-5A-vTS"; */
+"c65-5A-vTS.normalTitle" = "✕";
+
+/* Class = "UIButton"; normalTitle = "✕"; ObjectID = "c65-5A-vTS"; */
+"fLj-8A-uUz.placeholder" = "أضف ملاحظتك";
+
+

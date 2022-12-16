@@ -1,0 +1,90 @@
+
+/* Class = "UIButton"; normalTitle = "Activate your account"; ObjectID = "0ds-9o-E4j"; */
+"0ds-9o-E4j.normalTitle" = "تفعيل الحساب";
+
+/* Class = "UINavigationItem"; title = "Activate Code"; ObjectID = "5Xk-qr-75d"; */
+"5Xk-qr-75d.title" = "كود التفعيل";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "5rr-Y7-fjU"; */
+"5rr-Y7-fjU.title" = "تسجيل دخول";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "6GA-n9-ijV"; */
+"6GA-n9-ijV.text" = "او";
+
+/* Class = "UILabel"; text = "Forget Password?"; ObjectID = "7OZ-ga-cMG"; */
+"7OZ-ga-cMG.text" = "نسيت كلمة المرور ؟";
+
+/* Class = "UILabel"; text = "Enter Your Activation Code "; ObjectID = "FO4-iZ-cEh"; */
+"FO4-iZ-cEh.text" = "أدخل كود التفعيل";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "LDR-HU-RKu"; */
+"LDR-HU-RKu.placeholder" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "N85-qR-O9D"; */
+"N85-qR-O9D.text" = "او";
+
+/* Class = "UITextField"; placeholder = "Mobile"; ObjectID = "OGs-OL-GOF"; */
+"OGs-OL-GOF.placeholder" = "رقم الجوال";
+
+/* Class = "UINavigationItem"; title = "Create New Account"; ObjectID = "P4L-Gq-hh7"; */
+"P4L-Gq-hh7.title" = "إنشاء حساب جديد";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "Rco-tE-vO8"; */
+"Rco-tE-vO8.normalTitle" = "تسجيل دخول";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "SPp-6W-0qd"; */
+"SPp-6W-0qd.placeholder" = "إسم المستخدم";
+
+/* Class = "UITextField"; placeholder = "Enter Code"; ObjectID = "UaX-Pt-6L3"; */
+"UaX-Pt-6L3.placeholder" = "أدخل الكود";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "UiX-hI-fYR"; */
+"UiX-hI-fYR.title" = " ";
+
+/* Class = "UILabel"; text = "I agree"; ObjectID = "bgw-Cz-zdZ"; */
+"bgw-Cz-zdZ.text" = "أوافق على";
+
+/* Class = "UIBarButtonItem"; title = "✕"; ObjectID = "icG-6O-QGn"; */
+"icG-6O-QGn.title" = "✕";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "jYi-Gt-jl6"; */
+"jYi-Gt-jl6.normalTitle" = "تسجيل دخول";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "n6D-Af-aaM"; */
+"n6D-Af-aaM.text" = "✔︎";
+
+/* Class = "UITextField"; placeholder = "Mobile"; ObjectID = "nkE-lO-L42"; */
+"nkE-lO-L42.placeholder" = "رقم الجوال";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "ogX-lm-zZz"; */
+"ogX-lm-zZz.text" = "✔︎";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "pJi-dN-EEp"; */
+"pJi-dN-EEp.title" = " ";
+
+/* Class = "UILabel"; text = "Remember Login"; ObjectID = "pTA-jx-CaP"; */
+"pTA-jx-CaP.text" = "تذكرني ";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "rmu-Ex-kzk"; */
+"rmu-Ex-kzk.placeholder" = "كود العميل";
+
+/* Class = "UITextField"; placeholder = "Retype Password"; ObjectID = "txm-6P-Z5m"; */
+"txm-6P-Z5m.placeholder" = "تأكيد كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Skip Now"; ObjectID = "udS-5F-pdK"; */
+"udS-5F-pdK.normalTitle" = "تخطي الأن";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "wmD-QM-FNF"; */
+"wmD-QM-FNF.normalTitle" = "إنشاء حساب";
+
+/* Class = "UIViewController"; title = "Modal view"; ObjectID = "xTV-Wi-ayr"; */
+"xTV-Wi-ayr.title" = "Modal view";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "xix-M1-x3d"; */
+"xix-M1-x3d.placeholder" = "كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Create New Account"; ObjectID = "xyo-IA-ckB"; */
+"xyo-IA-ckB.normalTitle" = "إنشاء حساب جديد";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "yBI-4T-Fag"; */
+"yBI-4T-Fag.title" = " ";

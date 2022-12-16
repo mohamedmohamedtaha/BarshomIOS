@@ -1,0 +1,65 @@
+
+/* Class = "UIButton"; normalTitle = "Finish Order"; ObjectID = "0is-Tr-L6y"; */
+"0is-Tr-L6y.normalTitle" = "إنهاء الطلب";
+
+/* Class = "UILabel"; text = "Cash"; ObjectID = "1XS-6n-9eD"; */
+"1XS-6n-9eD.text" = "كاش";
+
+/* Class = "UILabel"; text = "Order Total"; ObjectID = "5gM-IP-4Qa"; */
+"5gM-IP-4Qa.text" = "إجمالي الطلب";
+
+/* Class = "UILabel"; text = "Products Count"; ObjectID = "GVV-PE-wXA"; */
+"GVV-PE-wXA.text" = "عدد المنتجات";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "IdC-hU-coI"; */
+"IdC-hU-coI.text" = "التفاصيل";
+
+/* Class = "UIButton"; normalTitle = "Reject"; ObjectID = "M75-qc-rBD"; */
+"M75-qc-rBD.normalTitle" = "رفض";
+
+/* Class = "UIButton"; normalTitle = "Accept"; ObjectID = "MvK-Ws-Nah"; */
+"MvK-Ws-Nah.normalTitle" = "قبول";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "PYU-jB-jDt"; */
+"PYU-jB-jDt.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Complaint"; ObjectID = "TQX-S9-Jae"; */
+"TQX-S9-Jae.normalTitle" = "إرسال شكوى";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "Taj-jW-o4K"; */
+"Taj-jW-o4K.text" = "الحالة";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Tbs-SL-vBx"; */
+"Tbs-SL-vBx.text" = "Name";
+
+/* Class = "UILabel"; text = "Payment gateway"; ObjectID = "Yph-lG-oad"; */
+"Yph-lG-oad.text" = "طريقة الدفع";
+
+/* Class = "UILabel"; text = "#1233234"; ObjectID = "ZcZ-U6-Dr0"; */
+"ZcZ-U6-Dr0.text" = "#1233234";
+
+/* Class = "UILabel"; text = ">"; ObjectID = "bb8-dt-58f"; */
+"bb8-dt-58f.text" = ">";
+
+/* Class = "UILabel"; text = "32 SAR"; ObjectID = "d8W-bW-h6p"; */
+"d8W-bW-h6p.text" = "32 SAR";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "fTf-tf-W32"; */
+"fTf-tf-W32.text" = "2";
+
+/* Class = "UILabel"; text = "Order Date"; ObjectID = "i6i-85-vU4"; */
+"i6i-85-vU4.text" = "تاريخ الطلب";
+
+/* Class = "UILabel"; text = "10-10-2010"; ObjectID = "tHn-tc-UMT"; */
+"tHn-tc-UMT.text" = "10-10-2010";
+
+/* Class = "UILabel"; text = "Client Name"; ObjectID = "vfK-3M-4Io"; */
+"vfK-3M-4Io.text" = "إسم العميل";
+
+/* Class = "UILabel"; text = "Client Mobile"; ObjectID = "vfK-3M-4Io"; */
+"aRd-ul-IJZ.text" = "رقم جوال العميل";
+
+/* Class = "UILabel"; text = "Client Mobile"; ObjectID = "vfK-3M-4Io"; */
+"J7i-IH-cLR.text" = "القيمة المضافة";
+
+

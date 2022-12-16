@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Select Location View Controller-->
+        <scene sceneID="AIa-qY-kcs">
+            <objects>
+                <viewController storyboardIdentifier="SelectLocationViewController" id="JMg-CS-BHS" customClass="SelectLocationViewController" customModule="Barshom" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GzF-0n-wRP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="h8b-PK-pNK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WWv-GS-MoP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fkY-CV-bWI" customClass="NBSAutoCompletePlaceTextField" customModule="Barshom" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="15" width="315" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="xUg-7S-g7H"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="hrBorderColor">
+                                                <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hrCornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hrBorderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goN-pm-c7q">
+                                        <rect key="frame" x="335" y="17.5" width="35" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="J5G-oy-fNk"/>
+                                            <constraint firstAttribute="height" constant="35" id="R4x-Hl-8a8"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" image="xmark.seal.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="cancelButAct:" destination="JMg-CS-BHS" eventType="touchUpInside" id="ROx-7N-pU0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.40784313729999999" green="0.72549019609999998" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="goN-pm-c7q" secondAttribute="trailing" constant="5" id="NKB-OM-eBa"/>
+                                    <constraint firstItem="fkY-CV-bWI" firstAttribute="leading" secondItem="WWv-GS-MoP" secondAttribute="leading" constant="10" id="Rkq-QZ-lNf"/>
+                                    <constraint firstItem="fkY-CV-bWI" firstAttribute="top" secondItem="WWv-GS-MoP" secondAttribute="top" constant="15" id="jgI-y7-4KE"/>
+                                    <constraint firstItem="goN-pm-c7q" firstAttribute="leading" secondItem="fkY-CV-bWI" secondAttribute="trailing" constant="10" id="pg1-Se-Mbj"/>
+                                    <constraint firstItem="goN-pm-c7q" firstAttribute="centerY" secondItem="fkY-CV-bWI" secondAttribute="centerY" id="tEh-ob-269"/>
+                                    <constraint firstAttribute="height" constant="70" id="zy7-Ej-DU4"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTI-m9-R9c">
+                                <rect key="frame" x="309" y="601" width="50" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="5Fb-9q-Eyi"/>
+                                    <constraint firstAttribute="height" constant="50" id="qZC-Uy-EKT"/>
+                                </constraints>
+                                <state key="normal" image="locate-1"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="hrCornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="hrBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="getMyCurrentLocationButtonAction:" destination="JMg-CS-BHS" eventType="touchUpInside" id="86Z-zD-QGP"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NyO-1B-xmi">
+                                <rect key="frame" x="147.5" y="293.5" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.1095860367" green="0.058399084949999999" blue="0.52926326940000001" alpha="0.15314640409999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Kth-wS-tWb"/>
+                                    <constraint firstAttribute="width" constant="80" id="Vji-Rc-Jr6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="hrCornerRadius">
+                                        <real key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="hrBorderColor">
+                                        <color key="value" red="0.40784313729999999" green="0.72549019609999998" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="hrBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locate" translatesAutoresizingMaskIntoConstraints="NO" id="pw9-SM-VLv">
+                                <rect key="frame" x="175.5" y="321.5" width="24" height="24"/>
+                                <color key="tintColor" red="0.40784313729999999" green="0.72549019609999998" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="gEI-R2-UP6"/>
+                                    <constraint firstAttribute="height" constant="24" id="pEZ-s5-PNz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZvJ-IN-XWz">
+                                <rect key="frame" x="112.5" y="577" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.40784313729999999" green="0.72549019609999998" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Acz-zi-S0f"/>
+                                    <constraint firstAttribute="height" constant="40" id="iFO-r7-fHY"/>
+                                </constraints>
+                                <state key="normal" title="Choose Location">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="hrCornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="selectActionButton:" destination="JMg-CS-BHS" eventType="touchUpInside" id="OMD-59-WJO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LEO-kx-f29"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LEO-kx-f29" firstAttribute="bottom" secondItem="h8b-PK-pNK" secondAttribute="bottom" id="4bc-bb-DNf"/>
+                            <constraint firstItem="pw9-SM-VLv" firstAttribute="centerY" secondItem="GzF-0n-wRP" secondAttribute="centerY" id="ChR-xC-xkW"/>
+                            <constraint firstItem="WWv-GS-MoP" firstAttribute="width" secondItem="GzF-0n-wRP" secondAttribute="width" id="EzF-Yh-ytI"/>
+                            <constraint firstItem="h8b-PK-pNK" firstAttribute="top" secondItem="LEO-kx-f29" secondAttribute="top" id="Gl6-hp-jlI"/>
+                            <constraint firstItem="h8b-PK-pNK" firstAttribute="leading" secondItem="LEO-kx-f29" secondAttribute="leading" id="IZ0-Fh-ssC"/>
+                            <constraint firstItem="ZvJ-IN-XWz" firstAttribute="centerX" secondItem="GzF-0n-wRP" secondAttribute="centerX" id="R0P-qC-RiQ"/>
+                            <constraint firstItem="LEO-kx-f29" firstAttribute="trailing" secondItem="YTI-m9-R9c" secondAttribute="trailing" constant="16" id="RwK-dI-Kp9"/>
+                            <constraint firstItem="NyO-1B-xmi" firstAttribute="centerY" secondItem="GzF-0n-wRP" secondAttribute="centerY" id="a1C-DA-8VR"/>
+                            <constraint firstItem="LEO-kx-f29" firstAttribute="bottom" secondItem="YTI-m9-R9c" secondAttribute="bottom" constant="16" id="ega-cy-mXQ"/>
+                            <constraint firstItem="WWv-GS-MoP" firstAttribute="centerX" secondItem="LEO-kx-f29" secondAttribute="centerX" id="fyh-Sb-y2W"/>
+                            <constraint firstItem="LEO-kx-f29" firstAttribute="bottom" secondItem="ZvJ-IN-XWz" secondAttribute="bottom" constant="50" id="kjX-TO-6EC"/>
+                            <constraint firstItem="pw9-SM-VLv" firstAttribute="centerX" secondItem="GzF-0n-wRP" secondAttribute="centerX" id="mEu-zE-6NJ"/>
+                            <constraint firstItem="WWv-GS-MoP" firstAttribute="top" secondItem="h8b-PK-pNK" secondAttribute="top" id="pG2-54-LGN"/>
+                            <constraint firstItem="LEO-kx-f29" firstAttribute="trailing" secondItem="h8b-PK-pNK" secondAttribute="trailing" id="tIk-Dh-2gC"/>
+                            <constraint firstItem="NyO-1B-xmi" firstAttribute="centerX" secondItem="GzF-0n-wRP" secondAttribute="centerX" id="x3c-A8-vvj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapReferece" destination="h8b-PK-pNK" id="JB9-Ss-Tdg"/>
+                        <outlet property="searchTF" destination="fkY-CV-bWI" id="c4Q-gD-3d1"/>
+                        <outlet property="searchViewConstraints" destination="zy7-Ej-DU4" id="KfJ-Uw-GeA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f3O-6h-nwd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3217" y="2187"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="locate" width="25.5" height="30"/>
+        <image name="locate-1" width="17" height="20.5"/>
+        <image name="xmark.seal.fill" catalog="system" width="128" height="128"/>
+    </resources>
+</document>

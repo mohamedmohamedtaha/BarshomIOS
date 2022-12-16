@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="shiftCell" reuseIdentifier="shiftCell" id="c5e-zt-HKl" customClass="shiftCell" customModule="Barshom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="HdF-gw-mki">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GMl-Yh-g9z">
+                        <rect key="frame" x="10" y="5" width="280" height="55"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vjF-WP-QCs">
+                                <rect key="frame" x="10" y="15" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="J5Q-i6-NW0"/>
+                                    <constraint firstAttribute="width" constant="25" id="XP3-9p-vij"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Jcy-68-65u">
+                                <rect key="frame" x="50" y="5" width="220" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Am Period" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmZ-61-vNG">
+                                        <rect key="frame" x="0.0" y="0.0" width="220" height="22.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Am Period" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3I-0p-ehw">
+                                        <rect key="frame" x="0.0" y="22.5" width="220" height="22.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.98431372549019602" green="0.58823529411764708" blue="0.0" alpha="0.89803921568627454" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gV0-hG-fz5">
+                                <rect key="frame" x="0.0" y="0.0" width="280" height="55"/>
+                                <connections>
+                                    <action selector="storeProductAction:" destination="c5e-zt-HKl" eventType="touchUpInside" id="Pas-8i-XUG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="vjF-WP-QCs" secondAttribute="bottom" constant="15" id="4ks-2g-kA7"/>
+                            <constraint firstItem="Jcy-68-65u" firstAttribute="centerY" secondItem="vjF-WP-QCs" secondAttribute="centerY" id="5rT-Rc-q1y"/>
+                            <constraint firstItem="gV0-hG-fz5" firstAttribute="centerY" secondItem="GMl-Yh-g9z" secondAttribute="centerY" id="75E-As-UEi"/>
+                            <constraint firstAttribute="bottom" secondItem="Jcy-68-65u" secondAttribute="bottom" constant="5" id="8bi-QH-cWs"/>
+                            <constraint firstItem="Jcy-68-65u" firstAttribute="leading" secondItem="vjF-WP-QCs" secondAttribute="trailing" constant="15" id="LWI-ad-xg1"/>
+                            <constraint firstItem="gV0-hG-fz5" firstAttribute="centerX" secondItem="GMl-Yh-g9z" secondAttribute="centerX" id="Vpc-Dc-lPA"/>
+                            <constraint firstItem="Jcy-68-65u" firstAttribute="top" secondItem="GMl-Yh-g9z" secondAttribute="top" constant="5" id="X4l-fE-fj6"/>
+                            <constraint firstItem="gV0-hG-fz5" firstAttribute="height" secondItem="GMl-Yh-g9z" secondAttribute="height" id="YZf-N1-fRo"/>
+                            <constraint firstItem="vjF-WP-QCs" firstAttribute="centerY" secondItem="GMl-Yh-g9z" secondAttribute="centerY" id="f82-Z2-t21"/>
+                            <constraint firstItem="vjF-WP-QCs" firstAttribute="top" secondItem="GMl-Yh-g9z" secondAttribute="top" constant="15" id="pyK-86-2Jc"/>
+                            <constraint firstAttribute="trailing" secondItem="Jcy-68-65u" secondAttribute="trailing" constant="10" id="qTf-AD-CyZ"/>
+                            <constraint firstItem="vjF-WP-QCs" firstAttribute="leading" secondItem="GMl-Yh-g9z" secondAttribute="leading" constant="10" id="uiL-xs-HGp"/>
+                            <constraint firstItem="gV0-hG-fz5" firstAttribute="width" secondItem="GMl-Yh-g9z" secondAttribute="width" id="zSM-I4-gcp"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="hrCornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="hrBorderColor">
+                                <color key="value" systemColor="systemBackgroundColor"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="hrBorderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="GMl-Yh-g9z" firstAttribute="top" secondItem="HdF-gw-mki" secondAttribute="top" constant="5" id="MrW-bP-Jvg"/>
+                    <constraint firstItem="GMl-Yh-g9z" firstAttribute="leading" secondItem="HdF-gw-mki" secondAttribute="leading" constant="10" id="NcN-rE-goh"/>
+                    <constraint firstAttribute="trailing" secondItem="GMl-Yh-g9z" secondAttribute="trailing" constant="10" id="pnF-kN-1Bv"/>
+                    <constraint firstAttribute="bottom" secondItem="GMl-Yh-g9z" secondAttribute="bottom" constant="3" id="tSc-1A-3fB"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="255" height="88"/>
+            <connections>
+                <outlet property="bg" destination="GMl-Yh-g9z" id="xHS-8t-V26"/>
+                <outlet property="nameLb" destination="KmZ-61-vNG" id="nCO-C3-gBB"/>
+                <outlet property="selectView" destination="vjF-WP-QCs" id="aFp-pi-zHp"/>
+                <outlet property="timeLb" destination="V3I-0p-ehw" id="KXr-Da-CT6"/>
+            </connections>
+            <point key="canvasLocation" x="-242.75362318840581" y="-56.919642857142854"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

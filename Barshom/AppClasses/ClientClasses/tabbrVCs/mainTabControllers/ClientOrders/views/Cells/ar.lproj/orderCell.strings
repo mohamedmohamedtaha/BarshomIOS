@@ -1,0 +1,62 @@
+
+/* Class = "UIButton"; normalTitle = "Cancel order"; ObjectID = "29R-Mn-BfW"; */
+"29R-Mn-BfW.normalTitle" = "إلغاء الطلب";
+
+/* Class = "UILabel"; text = "10-10-2010"; ObjectID = "3fC-oc-sMo"; */
+"3fC-oc-sMo.text" = "10-10-2010";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "6Cl-BA-MgR"; */
+"6Cl-BA-MgR.text" = "التفاصيل";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "6RU-lk-zOr"; */
+"6RU-lk-zOr.text" = "2";
+
+/* Class = "UIButton"; normalTitle = "Re-order"; ObjectID = "HoC-fb-ipg"; */
+"HoC-fb-ipg.normalTitle" = "إعادة الطلب";
+
+/* Class = "UILabel"; text = "Store Name"; ObjectID = "JWm-w8-mwj"; */
+"JWm-w8-mwj.text" = "إسم المتجر";
+
+/* Class = "UIButton"; normalTitle = "Rate order"; ObjectID = "L4h-qL-Dfi"; */
+"L4h-qL-Dfi.normalTitle" = "تقييم الطلب";
+
+/* Class = "UILabel"; text = "#1233234"; ObjectID = "P3D-TE-sIl"; */
+"P3D-TE-sIl.text" = "#1233234";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "SWX-98-K1q"; */
+"SWX-98-K1q.text" = "الحالة";
+
+/* Class = "UILabel"; text = "Payment Method"; ObjectID = "Vyq-AU-MC6"; */
+"Vyq-AU-MC6.text" = "طريقة الدفع";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Wjd-TH-fOL"; */
+"Wjd-TH-fOL.text" = "الإسم";
+
+/* Class = "UIButton"; normalTitle = "Report order"; ObjectID = "ZH7-eH-h8d"; */
+"ZH7-eH-h8d.normalTitle" = "إبلاغ";
+
+/* Class = "UILabel"; text = "Cash"; ObjectID = "ZTn-H5-KK3"; */
+"ZTn-H5-KK3.text" = "Cash";
+
+/* Class = "UILabel"; text = "Order Date"; ObjectID = "epL-4S-xr0"; */
+"epL-4S-xr0.text" = "تاريخ الطلب";
+
+/* Class = "UILabel"; text = ">"; ObjectID = "g91-iD-j4h"; */
+"g91-iD-j4h.text" = ">";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "hMo-cY-OkU"; */
+"hMo-cY-OkU.text" = "الإسم";
+
+/* Class = "UILabel"; text = "Order Total"; ObjectID = "nBT-G4-qCD"; */
+"nBT-G4-qCD.text" = "إجمالي الطلب";
+
+/* Class = "UILabel"; text = "Products Count"; ObjectID = "oZB-x9-1oj"; */
+"oZB-x9-1oj.text" = "عدد المنتجات";
+
+/* Class = "UILabel"; text = "32 SAR"; ObjectID = "oxf-Lr-Xgi"; */
+"oxf-Lr-Xgi.text" = "32 SAR";
+
+/* Class = "UILabel"; text = "32 SAR"; ObjectID = "oxf-Lr-Xgi"; */
+"gtQ-rn-lT5.text" = "القيمة المضافة";
+
+

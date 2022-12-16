@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "Ticket Date"; ObjectID = "2Q2-5j-Mix"; */
+"2Q2-5j-Mix.text" = "تاريخ التذكرة";
+
+/* Class = "UILabel"; text = "Ticket Title"; ObjectID = "5UY-J7-4z5"; */
+"5UY-J7-4z5.text" = "عنوان التذكرة";
+
+/* Class = "UILabel"; text = "20/10/2021"; ObjectID = "7gv-3f-ZPx"; */
+"7gv-3f-ZPx.text" = "20/10/2021";
+
+/* Class = "UIButton"; normalTitle = "Send Reply"; ObjectID = "9Pz-9j-kKk"; */
+"9Pz-9j-kKk.normalTitle" = "إرسال رد";
+
+/* Class = "UILabel"; text = "Done"; ObjectID = "BCC-kp-GXb"; */
+"BCC-kp-GXb.text" = "Done";
+
+/* Class = "UILabel"; text = "Problem Details Problem Details Problem "; ObjectID = "I6C-tP-9ds"; */
+"I6C-tP-9ds.text" = "Problem Details Problem Details Problem ";
+
+/* Class = "UILabel"; text = "#1233234"; ObjectID = "Lza-VP-CgQ"; */
+"Lza-VP-CgQ.text" = "#1233234";
+
+/* Class = "UILabel"; text = "32 SAR"; ObjectID = "TU5-N9-8In"; */
+"TU5-N9-8In.text" = "32 SAR";
+
+/* Class = "UILabel"; text = "Bill Number"; ObjectID = "Xx5-1P-0k9"; */
+"Xx5-1P-0k9.text" = "رقم الطلب";
+
+/* Class = "UILabel"; text = "Ticket Details"; ObjectID = "Z7e-IK-71A"; */
+"Z7e-IK-71A.text" = "تفاصيل التذكرة";
+
+/* Class = "UILabel"; text = "Problem title"; ObjectID = "gUh-qa-DpC"; */
+"gUh-qa-DpC.text" = "عنوان التذكرة";
+
+/* Class = "UILabel"; text = "Ticket Status"; ObjectID = "qs6-F9-0wE"; */
+"qs6-F9-0wE.text" = "حالة التذكرة";
+
+/* Class = "UIButton"; normalTitle = "Close Ticket"; ObjectID = "xC5-DN-DtU"; */
+"xC5-DN-DtU.normalTitle" = "إغلاق التذكرة";

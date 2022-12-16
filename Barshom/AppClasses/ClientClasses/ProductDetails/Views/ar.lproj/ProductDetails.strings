@@ -1,0 +1,134 @@
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "2dJ-V4-C5F"; */
+"2dJ-V4-C5F.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "30 SAR"; ObjectID = "2hz-V9-2g6"; */
+"2hz-V9-2g6.text" = "30 SAR";
+
+/* Class = "UILabel"; text = "10%"; ObjectID = "59r-fd-L03"; */
+"59r-fd-L03.text" = "10%";
+
+/* Class = "UIViewController"; title = "Modal view"; ObjectID = "7Kv-1m-VOz"; */
+"7Kv-1m-VOz.title" = "Modal view";
+
+/* Class = "UIButton"; normalTitle = "Add To Cart"; ObjectID = "9pB-bL-p8m"; */
+"9pB-bL-p8m.normalTitle" = "أضف للسلة";
+
+/* Class = "UILabel"; text = "Reviews"; ObjectID = "BZ9-qc-66H"; */
+"BZ9-qc-66H.text" = "التقييمات";
+
+/* Class = "UINavigationItem"; title = "All Rates"; ObjectID = "COI-AT-OxX"; */
+"COI-AT-OxX.title" = "كل التقييمات";
+
+/* Class = "UILabel"; text = "Choose unit"; ObjectID = "DRM-NZ-Tfk"; */
+"DRM-NZ-Tfk.text" = "تحديد الوحدة";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Dab-4P-O7k"; */
+"Dab-4P-O7k.title" = " ";
+
+/* Class = "UILabel"; text = "kilo price"; ObjectID = "EHb-1V-zUO"; */
+"EHb-1V-zUO.text" = "سعر
+الكيلو";
+
+/* Class = "UILabel"; text = "Box"; ObjectID = "HC1-ba-W4d"; */
+"HC1-ba-W4d.text" = "صندوق";
+
+"KAg-Pn-JBL.text" = "حبة";
+
+
+"Ss1-9G-W4u.text" = "متاح : ";
+
+
+
+/* Class = "UILabel"; text = "Choose quantity"; ObjectID = "IX9-tK-deC"; */
+"IX9-tK-deC.text" = "تحديد الكمية";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "J9D-Sx-v51"; */
+"J9D-Sx-v51.text" = "كيلو";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "KDs-1X-h88"; */
+"KDs-1X-h88.text" = "Name";
+
+/* Class = "UIViewController"; title = "Modal view"; ObjectID = "Mfp-U7-fD4"; */
+"Mfp-U7-fD4.title" = "Modal view";
+
+/* Class = "UILabel"; text = "Tomato"; ObjectID = "NHJ-rZ-iaI"; */
+"NHJ-rZ-iaI.text" = "Tomato";
+
+/* Class = "UILabel"; text = "Available"; ObjectID = "Ryg-Lg-HfO"; */
+"Ryg-Lg-HfO.text" = "متاح : ";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "SeG-n1-Nps"; */
+"SeG-n1-Nps.text" = "كيلو";
+
+/* Class = "UILabel"; text = "coment text "; ObjectID = "XJz-pc-jq4"; */
+"XJz-pc-jq4.text" = "تعليقك";
+
+/* Class = "UIButton"; normalTitle = "✕"; ObjectID = "Xh9-jX-ET9"; */
+"Xh9-jX-ET9.normalTitle" = "✕";
+
+/* Class = "UINavigationItem"; title = "Report Product"; ObjectID = "c7V-Nw-LZI"; */
+"c7V-Nw-LZI.title" = "إبلاغ عن المنتج";
+
+/* Class = "UILabel"; text = "30 SAR"; ObjectID = "d05-Hv-dUd"; */
+"d05-Hv-dUd.text" = "30 SAR";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "eaK-4B-LVe"; */
+"eaK-4B-LVe.text" = "1";
+
+/* Class = "UILabel"; text = "Available"; ObjectID = "ewP-H9-fwP"; */
+"ewP-H9-fwP.text" = "متاح : ";
+
+/* Class = "UILabel"; text = "Box"; ObjectID = "hET-9I-7zp"; */
+"hET-9I-7zp.text" = "صندوق";
+
+
+"dUv-1Q-G68.text" = "حبة";
+
+
+
+/* Class = "UILabel"; text = "12"; ObjectID = "hdI-ts-Ei9"; */
+"hdI-ts-Ei9.text" = "12";
+
+/* Class = "UIButton"; normalTitle = "Report"; ObjectID = "hlE-1T-GjP"; */
+"hlE-1T-GjP.normalTitle" = "إبلاغ عن المنتج";
+
+/* Class = "UILabel"; text = "30 SAR"; ObjectID = "hsx-Su-rKb"; */
+"hsx-Su-rKb.text" = "30 SAR";
+
+/* Class = "UIButton"; normalTitle = "Add Rate"; ObjectID = "isu-Gt-V9b"; */
+"isu-Gt-V9b.normalTitle" = "أضف تعليق";
+
+/* Class = "UIButton"; normalTitle = "Add to cart"; ObjectID = "kLy-gf-hr0"; */
+"kLy-gf-hr0.normalTitle" = "أضف للسلة";
+
+/* Class = "UIButton"; normalTitle = "Write your comment"; ObjectID = "mLf-43-ETB"; */
+"mLf-43-ETB.normalTitle" = "إكتب تعليقك";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "n7N-ol-SfO"; */
+"n7N-ol-SfO.text" = "12";
+
+/* Class = "UILabel"; text = "Cat Name"; ObjectID = "nEM-6R-vg4"; */
+"nEM-6R-vg4.text" = "Cat Name";
+
+/* Class = "UINavigationItem"; title = "Choose unit & quantity"; ObjectID = "oio-Sk-Vbj"; */
+"oio-Sk-Vbj.title" = "تحديد الوحدة والكمية";
+
+/* Class = "UILabel"; text = "Box price"; ObjectID = "qxV-Ah-MFp"; */
+"qxV-Ah-MFp.text" = "سعر
+الصندوق";
+
+"KMd-We-uHb.text" = "سعر
+الحبة";
+
+/* Class = "UILabel"; text = "30 SAR"; ObjectID = "rzj-kl-MXZ"; */
+"rzj-kl-MXZ.text" = "30 SAR";
+
+/* Class = "UIButton"; normalTitle = "✕"; ObjectID = "sXv-Ir-lai"; */
+"sXv-Ir-lai.normalTitle" = "✕";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "vvW-Sa-Rcz"; */
+"vvW-Sa-Rcz.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "Details Details Details Details Details Details Details Details Details Details Details Details  sddsddjs dsjd jsjd sjdsjsdj sjds jsdjsd  sjdjsjdsjd"; ObjectID = "zYc-gi-DrC"; */
+"zYc-gi-DrC.text" = "Details Details Details Details Details Details Details Details Details Details Details Details  sddsddjs dsjd jsjd sjdsjsdj sjds jsdjsd  sjdjsjdsjd";

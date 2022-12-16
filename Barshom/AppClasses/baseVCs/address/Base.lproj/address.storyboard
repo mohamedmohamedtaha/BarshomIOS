@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--AddressVC-->
+        <scene sceneID="8nM-Yz-exf">
+            <objects>
+                <viewController storyboardIdentifier="AddressVC" id="k4s-xI-HYU" customClass="AddressVC" customModule="Barshom" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sh7-CZ-HoK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vOC-KD-f5E">
+                                <rect key="frame" x="0.0" y="44" width="414" height="748"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxr-jA-MOx">
+                                <rect key="frame" x="107" y="802" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.40784313729999999" green="0.72549019609999998" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="6Ny-pK-Lgd"/>
+                                    <constraint firstAttribute="height" constant="40" id="aJe-Q7-m6j"/>
+                                </constraints>
+                                <state key="normal" title="Add new address">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="hrCornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="selectActionButton:" destination="k4s-xI-HYU" eventType="touchUpInside" id="3LL-a8-4bc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ORP-9M-8BA"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ORP-9M-8BA" firstAttribute="trailing" secondItem="vOC-KD-f5E" secondAttribute="trailing" id="MBl-Hp-cgQ"/>
+                            <constraint firstItem="vOC-KD-f5E" firstAttribute="top" secondItem="ORP-9M-8BA" secondAttribute="top" id="QGM-mk-SF2"/>
+                            <constraint firstItem="ORP-9M-8BA" firstAttribute="bottom" secondItem="Vxr-jA-MOx" secondAttribute="bottom" constant="20" id="cfx-Eu-nbq"/>
+                            <constraint firstItem="Vxr-jA-MOx" firstAttribute="top" secondItem="vOC-KD-f5E" secondAttribute="bottom" constant="10" id="rU2-fI-AmB"/>
+                            <constraint firstItem="Vxr-jA-MOx" firstAttribute="centerX" secondItem="sh7-CZ-HoK" secondAttribute="centerX" id="snM-De-sfC"/>
+                            <constraint firstItem="vOC-KD-f5E" firstAttribute="leading" secondItem="ORP-9M-8BA" secondAttribute="leading" id="tkR-9Q-jCw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="vOC-KD-f5E" id="j8D-F1-ZAP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gRA-jo-UmK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3217" y="2187"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

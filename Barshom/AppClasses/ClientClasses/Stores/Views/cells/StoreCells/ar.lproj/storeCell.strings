@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "1:3"; ObjectID = "1Vk-rm-5Qi"; */
+"1Vk-rm-5Qi.text" = "1:3";
+
+/* Class = "UILabel"; text = "Delivery Time"; ObjectID = "90T-a4-Rr5"; */
+"90T-a4-Rr5.text" = "مدة التوصيل";
+
+/* Class = "UILabel"; text = "3 Km"; ObjectID = "Mwi-z6-dXZ"; */
+"Mwi-z6-dXZ.text" = "3 Km";
+
+/* Class = "UIButton"; normalTitle = "Store Product"; ObjectID = "VSP-TM-bYS"; */
+"VSP-TM-bYS.normalTitle" = "منتجات المتجر";
+
+/* Class = "UILabel"; text = "Package Name"; ObjectID = "cYx-Vb-c83"; */
+"cYx-Vb-c83.text" = "إسم الباقة";
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "ueL-qi-cQd"; */
+"ueL-qi-cQd.text" = "المسافة";

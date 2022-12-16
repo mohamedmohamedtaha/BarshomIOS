@@ -11,13 +11,15 @@ import UIKit
 import NitroUIColorCategories
 
 struct Color {
-    static let mainColor = UIColor(fromARGBHexString:"68B93C")
+    static let mainColor = UIColor(fromARGBHexString:"68B83B")
     static let tintGray = UIColor(fromARGBHexString:"AFAFAF")
     static let tintColor = UIColor(fromARGBHexString:"FB9600")
   
     static let selectPackge = UIColor(fromARGBHexString:"90CB70")
     static let unSelectPackge = UIColor(fromARGBHexString:"7FC359")
     static let borderViewColor = UIColor(fromARGBHexString:"E8E8E8")
+    static let msgBackFrom = UIColor(fromARGBHexString:"ECEBE7")
+    static let msgBackTo = UIColor(fromARGBHexString:"EEFECA")
 }
 
 enum Theme: Int {

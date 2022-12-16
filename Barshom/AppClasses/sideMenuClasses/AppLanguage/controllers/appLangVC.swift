@@ -16,5 +16,18 @@ class appLangVC: UIViewController {
     }
     
 
+    @IBAction func arabicClicked()
+    {
+        self.dismissAnimated()
+        LanguageManager.currentLanguage = .ar
+        MakeHomeRoot()
+    }
+    @IBAction func englishClicked()
+    {
+        self.dismissAnimated()
+        LanguageManager.currentLanguage = .en
+        MakeHomeRoot()
+    }
+        
 
 }

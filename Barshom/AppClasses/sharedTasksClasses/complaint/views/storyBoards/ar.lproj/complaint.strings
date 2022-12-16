@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Notification Title"; ObjectID = "A2f-Hg-HUg"; */
+"A2f-Hg-HUg.text" = "Notification Title";
+
+/* Class = "UITextField"; placeholder = "Enter your message"; ObjectID = "EtV-T7-4NL"; */
+"EtV-T7-4NL.placeholder" = "أدخل الرسالة";
+
+/* Class = "UILabel"; text = "Notification Title"; ObjectID = "FHw-uw-4li"; */
+"FHw-uw-4li.text" = "Notification Title";
+
+/* Class = "UIButton"; normalTitle = " Add Ticket +  "; ObjectID = "RnR-oC-pAU"; */
+"RnR-oC-pAU.normalTitle" = " إضافة تذكرة +  ";
+
+/* Class = "UILabel"; text = "Notification Title "; ObjectID = "VYH-9g-KVi"; */
+"VYH-9g-KVi.text" = "Notification Title ";
+
+/* Class = "UITextField"; placeholder = "Complaint Title"; ObjectID = "W5t-uC-vCI"; */
+"W5t-uC-vCI.placeholder" = "عنوان الشكوى";
+
+/* Class = "UINavigationItem"; title = "Tickets/Complaints"; ObjectID = "X8x-eW-Xui"; */
+"X8x-eW-Xui.title" = "طلبلت الشكاوى و التذاكر";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "Ydg-Qc-uVH"; */
+"Ydg-Qc-uVH.normalTitle" = "إرسال";
+
+/* Class = "UILabel"; text = "notif"; ObjectID = "a17-vm-bqG"; */
+"a17-vm-bqG.text" = "notif";
+
+/* Class = "UILabel"; text = "Your Opinion is heard"; ObjectID = "aSv-bP-tea"; */
+"aSv-bP-tea.text" = "صوتك مسموع";
+
+/* Class = "UILabel"; text = "Notification Title "; ObjectID = "gOc-6e-LKS"; */
+"gOc-6e-LKS.text" = "Notification Title ";
+
+/* Class = "UINavigationItem"; title = "Complaint"; ObjectID = "hfp-0r-F3X"; */
+"hfp-0r-F3X.title" = "الشكوى";
+
+/* Class = "UITextField"; placeholder = "Complaint Number"; ObjectID = "nbp-ri-suU"; */
+"nbp-ri-suU.placeholder" = "رقم الطلب";
+
+/* Class = "UIViewController"; title = "Modal view"; ObjectID = "oBq-Sd-2CB"; */
+"oBq-Sd-2CB.title" = "Modal view";
+
+/* Class = "UIButton"; normalTitle = "✕"; ObjectID = "oqE-Ww-pKW"; */
+"oqE-Ww-pKW.normalTitle" = "✕";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "qoB-Iz-fZn"; */
+"qoB-Iz-fZn.title" = " ";
+
+/* Class = "UILabel"; text = "notif"; ObjectID = "zmI-9J-Cqt"; */
+"zmI-9J-Cqt.text" = "notif";

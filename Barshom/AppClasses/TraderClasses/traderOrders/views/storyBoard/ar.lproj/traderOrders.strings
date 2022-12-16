@@ -1,0 +1,12 @@
+
+/* Class = "UISegmentedControl"; 5Ol-yc-GHB.segmentTitles[0] = "Enable"; ObjectID = "5Ol-yc-GHB"; */
+"5Ol-yc-GHB.segmentTitles[0]" = "Enable";
+
+/* Class = "UISegmentedControl"; 5Ol-yc-GHB.segmentTitles[1] = "Disable"; ObjectID = "5Ol-yc-GHB"; */
+"5Ol-yc-GHB.segmentTitles[1]" = "Disable";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "qLy-jn-gbz"; */
+"qLy-jn-gbz.title" = " ";
+
+/* Class = "UINavigationItem"; title = "My Orders"; ObjectID = "u1y-Xp-U50"; */
+"u1y-Xp-U50.title" = "طلباتي";

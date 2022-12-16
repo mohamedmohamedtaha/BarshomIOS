@@ -14,6 +14,11 @@ import Toaster
 import SwiftyUserDefaults
 import SideMenu
 
+class ArabicCollectionFlow: UICollectionViewFlowLayout {
+  override var flipsHorizontallyInOppositeLayoutDirection: Bool {
+    return LanguageManager.isArabic
+  }
+}
 class Utilities: NSObject {
     
   class func setupSideMenu(_ v:UIViewController) {
@@ -22,7 +27,7 @@ class Utilities: NSObject {
     let menu = AppStoryboard.sideMenu.instance.instantiateViewController(withIdentifier: "SideMenuNavigationController") as? SideMenuNavigationController
     menu?.menuWidth = 20
     menu?.presentationStyle = presentationStyle
-    if Language.currentLanguage() == "ar" {
+    if LanguageManager.isArabic {
       menu?.leftSide = false
     }else {
       menu?.leftSide = true
@@ -44,7 +49,7 @@ class Utilities: NSObject {
   class func addLogoTitleView( _ vc:UIViewController) {
       let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 38, height: 38))
       imageView.contentMode = .scaleAspectFit
-      let image = #imageLiteral(resourceName: "logoWhite")
+      let image = UIImage(named: "logoWhite")
       imageView.image = image
       vc.navigationItem.titleView = imageView
   }

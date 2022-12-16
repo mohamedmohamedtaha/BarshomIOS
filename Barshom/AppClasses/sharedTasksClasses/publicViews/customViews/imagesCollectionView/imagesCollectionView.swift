@@ -13,13 +13,13 @@ class imageClass {
 }
 
 protocol imgsCollectionDelegate {
-  func reload()
-  func imgsEmpty()
+    func reload(imgs: [Data])
+  func imgsEmpty(imgs: [Data])
 }
 
 class imagesCollectionView: UICollectionView {
 
-  
+  var isProduct = true
   var imagePicker = UIImagePickerController()
   var imgs = [imageClass]()
   var selectedPhotos = [UIImage]()
@@ -52,6 +52,7 @@ class imagesCollectionView: UICollectionView {
   func Configration(_ limit:Int)  {
     handleUI()
     imgsLimit = limit
+    self.reloadData()
   }
   func handleUI(){
     registerCells()
@@ -109,7 +110,7 @@ extension imagesCollectionView {
   func addNewphoto(){
 
       if imgs.count >= imgsLimit {
-        Utilities.showAlert(collectionViewTVC!, messageToDisplay:(Strings.YouCanNotaddMore.Localized + " \(imgsLimit) ") + Strings.YouCanNotaddMore.Localized)
+        Utilities.showAlert(collectionViewTVC!, messageToDisplay:(Strings.YouCanNotaddMore.Localized + " \(imgsLimit) ") + Strings.photos.Localized)
       }else {
           if UIImagePickerController.isSourceTypeAvailable(.savedPhotosAlbum){
               imagePicker.delegate = self
@@ -137,6 +138,7 @@ extension imagesCollectionView:UICollectionViewDataSource,UICollectionViewDelega
       
           if indexPath.row == imgs.count  {
               let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "addNewphotoCell", for: indexPath) as! addNewphotoCell
+            
               return cell
           }else {
               let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "photoCell", for: indexPath) as! photoCell
@@ -220,14 +222,18 @@ extension imagesCollectionView :UINavigationControllerDelegate,UIImagePickerCont
         let imgc = imageClass()
         imgc.img = chosenImage
         imgc.url = ""
-     let imgData = chosenImage.jpegData(compressionQuality: 0.1)
+     let imgData = chosenImage.handleOrientation().jpegData(compressionQuality: 0.6)!
        
             imgs.append(imgc)
             self.reloadData()
             selectedPhotos.append(chosenImage)
-            imgsData.append(imgData!)
+    imgsData.append(imgData)
         
     
+    if dlegate != nil
+    {
+        dlegate?.reload(imgs: imgsData)
+    }
         //dlegate?.reload()
         reloadCollection()
         if imgs.count == 0 {
@@ -270,6 +276,10 @@ extension imagesCollectionView:photosDelegate {
             self.imgs.remove(at: index)
             imgsData.remove(at: index)
             selectedPhotos.remove(at: index)
+        if dlegate != nil
+        {
+            dlegate?.reload(imgs: imgsData)
+        }
             self.reloadData()
         if imgs.count == 0 {
           //dlegate?.imgsEmpty()
@@ -284,13 +294,13 @@ extension imagesCollectionView:photosDelegate {
 extension UICollectionView {
 
   
-var HConstraint: NSLayoutConstraint? {
-    get {
-        return constraints.first(where: {
-            $0.firstAttribute == .height && $0.relation == .equal
-        })
-    }
-    set { setNeedsLayout() }
-}
+//var HConstraint: NSLayoutConstraint? {
+//    get {
+//        return constraints.first(where: {
+//            $0.firstAttribute == .height && $0.relation == .equal
+//        })
+//    }
+//    set { setNeedsLayout() }
+//}
   
 }

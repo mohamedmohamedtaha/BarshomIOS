@@ -12,20 +12,21 @@ enum clientMenuType:String {
     case Profile = "Profile"
     case Wallet = "Wallet"
     case Packages = "Packages"
-    case complaint = "Complaint"
+    case complaint = "Complaint/Tickets"
     case myOrders = "My Orders"
     case registerStore = "Register Store"
     case registerRepresentative = "Register Representative"
     case questions = "Questions"
     case notifications = "Notifications"
     case aboutApp = "About App"
-    case termsAndConditions = "terms And Conditions"
+    case termsAndConditions = "Terms & Conditions"
     case contactUs = "Contact Us"
     case langue = "Language"
-    case logOut = "Log Out"
-  
+    case logOut = "Logout"
+    case login = "Login"
+
   init?(str: String) {
-      self.init(rawValue:str.Localized)
+      self.init(rawValue:str)
   }
 }
 
@@ -53,7 +54,7 @@ class clientSideMenu {
       getRawValue(.termsAndConditions):(#imageLiteral(resourceName: "conditions"),11),
       getRawValue(.contactUs):(#imageLiteral(resourceName: "contact"),12),
       getRawValue(.langue):(#imageLiteral(resourceName: "language"),13),
-      getRawValue(.logOut):(#imageLiteral(resourceName: "logout"),14)
+      getRawValue(UserManager.isLoggedIn ? .logOut : .login):(#imageLiteral(resourceName: "logout"),14)
     ]
   }
   
@@ -61,44 +62,97 @@ class clientSideMenu {
     print(Type)
     switch Type{
     case .Profile:
+        if !UserManager.isLoggedIn {
+            AppHelper.showLoginAlert(vc: vc)
+            return
+        }
       Notify.post(.selectIndex,object:4)
     case .Wallet:
+        if !UserManager.isLoggedIn {
+            AppHelper.showLoginAlert(vc: vc)
+            return
+        }
       let wallet = walletVC.instantiate(.wallet)
+        vc.navigationController?.isNavigationBarHidden = false
+
       vc.show(wallet, sender: nil)
     case .Packages:
+        if !UserManager.isLoggedIn {
+            AppHelper.showLoginAlert(vc: vc)
+            return
+        }
       let packages = packagesVC.instantiate(.packages)
+        vc.navigationController?.isNavigationBarHidden = false
       vc.show(packages, sender: nil)
     case .complaint:
+        if !UserManager.isLoggedIn {
+            AppHelper.showLoginAlert(vc: vc)
+            return
+        }
       let packages = complaintListVC.instantiate(.complaint)
+        vc.navigationController?.isNavigationBarHidden = false
+
       vc.show(packages, sender: nil)
     case .myOrders:
+        if !UserManager.isLoggedIn {
+            AppHelper.showLoginAlert(vc: vc)
+            return
+        }
       Notify.post(.selectIndex,object:1)
     case .registerStore:
+        let packages = registerTraderTVC.instantiate(.registerTrader)
+          vc.navigationController?.isNavigationBarHidden = false
+        vc.show(packages, sender: nil)
       print(Type)
     case .registerRepresentative:
+        let packages = registerDriverTVC.instantiate(.registerDriver)
+          vc.navigationController?.isNavigationBarHidden = false
+        vc.show(packages, sender: nil)
       print(Type)
     case .questions:
-      print(Type)
+        let packages = faqVC.instantiate(.faq)
+        vc.navigationController?.isNavigationBarHidden = false
+
+        vc.show(packages, sender: nil)
     case .notifications:
+        if !UserManager.isLoggedIn {
+            AppHelper.showLoginAlert(vc: vc)
+            return
+        }
       Notify.post(.selectIndex,object:3)
     case .aboutApp:
       let packages = aboutVC.instantiate(.terms)
+        vc.navigationController?.isNavigationBarHidden = false
+
       packages.type = .about
       vc.show(packages, sender: nil)
     case .termsAndConditions:
       let packages = aboutVC.instantiate(.terms)
+        vc.navigationController?.isNavigationBarHidden = false
+        packages.userType = "user"
+
       packages.type = .terms
       vc.show(packages, sender: nil)
     case .contactUs:
       let packages = contactUsTVC.instantiate(.contactUs)
+        vc.navigationController?.isNavigationBarHidden = false
+
       vc.show(packages, sender: nil)
     case .langue:
       sheetPresenter.opensheetVC(vc, storeyBoard: .language, screenHeight: 1.3)
     case .logOut:
-      let nav = AppStoryboard.registration.instance.instantiateViewController(withIdentifier: "loginNav")
-      vc.present(nav, animated: true, completion: nil)
+       
+            UserManager.logout()
+            vc.MakeHomeRoot()
+    
+      
+    case .login:
+        
+            let nav = AppStoryboard.registration.instance.instantiateViewController(withIdentifier: "loginNav")
+            vc.present(nav, animated: true, completion: nil)
+        
     }
-    if ((Type != .langue) && (Type != .logOut)) {
+    if ((Type != .langue) && (Type != .logOut)  && (Type != .login)) {
     vc.dismiss(animated: true, completion: nil)
 
     }

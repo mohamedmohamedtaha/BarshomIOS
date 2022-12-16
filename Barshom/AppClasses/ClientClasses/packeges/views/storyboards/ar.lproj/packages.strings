@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Subscribe"; ObjectID = "4Zh-g7-Wte"; */
+"4Zh-g7-Wte.normalTitle" = "إشتراك في الباقة";
+
+/* Class = "UIButton"; normalTitle = "Packages Unsubscribed"; ObjectID = "EjL-bF-Z1l"; */
+"EjL-bF-Z1l.normalTitle" = "كل الباقات";
+
+/* Class = "UIButton"; normalTitle = "Packages subscribed"; ObjectID = "voD-od-uDT"; */
+"voD-od-uDT.normalTitle" = "باقات مشترك بها";
+
+/* Class = "UIButton"; normalTitle = "Packages Unsubscribed"; ObjectID = "EjL-bF-Z1l"; */
+"Kry-eX-X0N.normalTitle" = "كل الباقات";
+
+/* Class = "UIButton"; normalTitle = "Packages subscribed"; ObjectID = "voD-od-uDT"; */
+"Dcz-vu-aHQ.normalTitle" = "باقات مشترك بها";

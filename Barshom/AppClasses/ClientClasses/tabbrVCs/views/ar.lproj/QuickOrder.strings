@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Other Stores"; ObjectID = "Jaq-Px-Hce"; */
+"Jaq-Px-Hce.text" = "المتاجر الأخرى";
+
+/* Class = "UILabel"; text = "Additional fees and exceptional services"; ObjectID = "Wop-u3-bbP"; */
+"Wop-u3-bbP.text" = "رسوم إضافية وخدمات استثنائية";
+
+/* Class = "UIButton"; normalTitle = "Order Now"; ObjectID = "Zfq-f9-wd6"; */
+"Zfq-f9-wd6.normalTitle" = "اطلب الأن";
+
+/* Class = "UIButton"; normalTitle = "Order Now"; ObjectID = "a8I-Wo-N9Y"; */
+"a8I-Wo-N9Y.normalTitle" = "اطلب الأن";
+
+/* Class = "UINavigationItem"; title = "Fast Order"; ObjectID = "c2b-fe-3to"; */
+"c2b-fe-3to.title" = "طلب سريع";
+
+/* Class = "UILabel"; text = "Barshoom Store"; ObjectID = "eY5-po-ZBc"; */
+"eY5-po-ZBc.text" = "متجر برشوم";
+
+/* Class = "UILabel"; text = "Select Region"; ObjectID = "kOE-dM-xvk"; */
+"kOE-dM-xvk.text" = "تحديد المنطقة";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "smK-8d-D3a"; */
+"smK-8d-D3a.normalTitle" = "إكمال الطلب";
+
+/* Class = "UIViewController"; title = "Modal view"; ObjectID = "wK1-5x-Pj8"; */
+"wK1-5x-Pj8.title" = "Modal view";
+
+/* Class = "UIButton"; normalTitle = "✕"; ObjectID = "x7g-7S-IaU"; */
+"x7g-7S-IaU.normalTitle" = "✕";

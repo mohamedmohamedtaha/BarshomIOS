@@ -1,0 +1,76 @@
+
+/* Class = "UINavigationItem"; title = "Products"; ObjectID = "2zO-ue-qrL"; */
+"2zO-ue-qrL.title" = "المنتجات";
+
+/* Class = "UITextField"; placeholder = "Quantity in KG"; ObjectID = "9Cz-tw-e8F"; */
+"9Cz-tw-e8F.placeholder" = "الكمية للكيلو";
+
+/* Class = "UITextField"; placeholder = "Category Name"; ObjectID = "B4Q-kE-sUW"; */
+"B4Q-kE-sUW.placeholder" = "إسم القسم";
+
+/* Class = "UINavigationItem"; title = "Categories"; ObjectID = "CxP-4l-JVr"; */
+"CxP-4l-JVr.title" = "الأقسام";
+
+/* Class = "UITextField"; placeholder = "Quantity in Box"; ObjectID = "GGJ-IN-X87"; */
+"GGJ-IN-X87.placeholder" = "الكمية للصندوق";
+
+/* Class = "UITextField"; placeholder = "Product Name"; ObjectID = "Gji-Lq-mmz"; */
+"Gji-Lq-mmz.placeholder" = "إسم المنتج";
+
+/* Class = "UIButton"; normalTitle = "Add Product"; ObjectID = "ImW-7C-zh4"; */
+"ImW-7C-zh4.normalTitle" = "إضافة منتج";
+
+/* Class = "UITextField"; placeholder = "Discount Price of Box"; ObjectID = "IzU-IC-4Ny"; */
+"IzU-IC-4Ny.placeholder" = "سعر المنتج بعد الخصم للصندوق";
+
+/* Class = "UITextField"; placeholder = "Product Description"; ObjectID = "MdD-DG-N1D"; */
+"MdD-DG-N1D.placeholder" = "وصف المنتح";
+
+/* Class = "UITextField"; placeholder = "Number of kilos in box"; ObjectID = "Si6-YR-76x"; */
+"Si6-YR-76x.placeholder" = "عدد الكيلوهات في الصندوق";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Xcw-W7-KRO"; */
+"Xcw-W7-KRO.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Price of Box"; ObjectID = "ZDt-Ur-0QV"; */
+"ZDt-Ur-0QV.placeholder" = "سعر المنتج للصندوق";
+
+/* Class = "UITextField"; placeholder = "Price of KG"; ObjectID = "bL0-sE-1hT"; */
+"bL0-sE-1hT.placeholder" = "سعر المنتج للكيلو";
+
+/* Class = "UIButton"; normalTitle = "  Add Product +  "; ObjectID = "dq5-9S-IcI"; */
+"dq5-9S-IcI.normalTitle" = "  إضافة منتج +  ";
+
+/* Class = "UITextField"; placeholder = "Choose Category"; ObjectID = "gTJ-mJ-9Zj"; */
+"gTJ-mJ-9Zj.placeholder" = "إختر القسم";
+
+"qgx-3c-auS.placeholder" = "إختر المندوب";
+
+
+/* Class = "UILabel"; text = "Category Photos"; ObjectID = "iUq-Ma-jUq"; */
+"iUq-Ma-jUq.text" = "صور القسم";
+
+/* Class = "UIButton"; normalTitle = "Add Category"; ObjectID = "n1K-3D-IP3"; */
+"n1K-3D-IP3.normalTitle" = "إضافة قسم";
+
+/* Class = "UILabel"; text = "Product Photos"; ObjectID = "nMu-TN-O85"; */
+"nMu-TN-O85.text" = "صور المنتج";
+
+/* Class = "UIBarButtonItem"; title = "  "; ObjectID = "rj1-N9-acD"; */
+"rj1-N9-acD.title" = "  ";
+
+/* Class = "UIButton"; normalTitle = " Add Category +  "; ObjectID = "uMb-3E-OJQ"; */
+"uMb-3E-OJQ.normalTitle" = " إضافة قسم +  ";
+
+/* Class = "UITextField"; placeholder = "Discount Price of KG"; ObjectID = "uc2-bI-Fct"; */
+"uc2-bI-Fct.placeholder" = "سعر المنتج بعد الخصم للكيلو";
+
+"WEv-LX-i0x.placeholder" = "عدد الحبات";
+
+"S4T-yM-0i9.placeholder" = "سعر المنتج للحبة";
+
+"GTF-jz-Qof.placeholder" = "سعر الحبة بعد الخصم";
+
+
+
+

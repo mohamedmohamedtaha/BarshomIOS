@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class orderProductsDataSource: NSObject , UITableViewDataSource, UITableViewDelegate {
-    
+    var productsList = [OrderProducts]()
   func register(_ tableView: UITableView) {
     tableView.register(UINib(nibName: productInOrderDetailsCell.identifier, bundle: nil), forCellReuseIdentifier: productInOrderDetailsCell.identifier)
   }
@@ -20,11 +20,12 @@ class orderProductsDataSource: NSObject , UITableViewDataSource, UITableViewDele
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return productsList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
       let cell = tableView.dequeueReusableCell(withIdentifier: productInOrderDetailsCell.identifier, for: indexPath) as! productInOrderDetailsCell
+        cell.cellConfigration(productData: productsList[indexPath.row])
         return cell
     }
     

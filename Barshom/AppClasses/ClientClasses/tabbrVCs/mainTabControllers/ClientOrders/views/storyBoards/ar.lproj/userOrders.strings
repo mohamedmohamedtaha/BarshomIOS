@@ -1,0 +1,110 @@
+
+/* Class = "UIButton"; normalTitle = "Finish Order"; ObjectID = "0eO-65-dEK"; */
+"0eO-65-dEK.normalTitle" = "إنهاء الطلب";
+
+/* Class = "UIBarButtonItem"; title = "  "; ObjectID = "0o0-PA-6fd"; */
+"0o0-PA-6fd.title" = "  ";
+
+/* Class = "UILabel"; text = "Order Type"; ObjectID = "3UD-MN-C1A"; */
+"3UD-MN-C1A.text" = "نوع الطلب";
+
+/* Class = "UILabel"; text = "Review the Order before receiving it from the representative"; ObjectID = "4Pa-bm-mec"; */
+"4Pa-bm-mec.text" = "يجب مراجعة الطلب قبل اعطاء كود الشحن للمندوب";
+
+/* Class = "UILabel"; text = "250 SAR"; ObjectID = "8D8-rc-yps"; */
+"8D8-rc-yps.text" = "250 SAR";
+
+/* Class = "UILabel"; text = "Delivery Time"; ObjectID = "8i1-fQ-QGT"; */
+"8i1-fQ-QGT.text" = "الوقت المتوقع للوصول";
+
+/* Class = "UIButton"; normalTitle = "Order Delivered"; ObjectID = "BP3-4G-TJe"; */
+"BP3-4G-TJe.normalTitle" = "تم التوصيل";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "DAs-F1-tgY"; */
+"DAs-F1-tgY.title" = " ";
+
+/* Class = "UILabel"; text = "st.test-city-country"; ObjectID = "G2G-K2-pg8"; */
+"G2G-K2-pg8.text" = "st.test-city-country";
+
+/* Class = "UILabel"; text = "Order Date"; ObjectID = "Gj0-oy-o1A"; */
+"Gj0-oy-o1A.text" = "تاريخ الطلب";
+
+/* Class = "UILabel"; text = "cash"; ObjectID = "HHJ-Ur-1a1"; */
+"HHJ-Ur-1a1.text" = "cash";
+
+/* Class = "UILabel"; text = "Payment Getaway"; ObjectID = "Ks0-OS-mea"; */
+"Ks0-OS-mea.text" = "طريقة الدفع";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "LjK-Ic-HDb"; */
+"LjK-Ic-HDb.text" = "2";
+
+/* Class = "UIButton"; normalTitle = "Reject Order"; ObjectID = "VpB-k6-fgA"; */
+"VpB-k6-fgA.normalTitle" = "رفض الطلب";
+
+/* Class = "UILabel"; text = "#12321123"; ObjectID = "WaK-Dp-V4s"; */
+"WaK-Dp-V4s.text" = "#12321123";
+
+/* Class = "UILabel"; text = "23/12/2021"; ObjectID = "Wpn-5u-zcm"; */
+"Wpn-5u-zcm.text" = "23/12/2021";
+
+/* Class = "UIButton"; normalTitle = "Cancel Order"; ObjectID = "XVU-6d-RAj"; */
+"XVU-6d-RAj.normalTitle" = "إلغاء الطلب";
+
+/* Class = "UILabel"; text = "#12332"; ObjectID = "aaB-8X-jop"; */
+"aaB-8X-jop.text" = "#12332";
+
+/* Class = "UIButton"; normalTitle = "Re-order"; ObjectID = "d7L-2a-4Iv"; */
+"d7L-2a-4Iv.normalTitle" = "إعادة الطلب";
+
+/* Class = "UILabel"; text = "23/12/2021"; ObjectID = "dGZ-h4-VAj"; */
+"dGZ-h4-VAj.text" = "23/12/2021";
+
+/* Class = "UILabel"; text = "Order Number"; ObjectID = "dpD-Gg-41b"; */
+"dpD-Gg-41b.text" = "رقم الطلب";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "euB-Y3-nLz"; */
+"euB-Y3-nLz.text" = "العنوان";
+
+/* Class = "UIButton"; normalTitle = "In Delivery"; ObjectID = "fhB-Zr-ORh"; */
+"fhB-Zr-ORh.normalTitle" = "قيد التوصيل";
+
+/* Class = "UILabel"; text = "Products Count"; ObjectID = "fzf-KB-ugT"; */
+"fzf-KB-ugT.text" = "عدد المنتجات";
+
+/* Class = "UILabel"; text = "Waiting"; ObjectID = "gGW-Ym-zbJ"; */
+"gGW-Ym-zbJ.text" = "قيد الإنتظار";
+
+/* Class = "UIButton"; normalTitle = "Reject Order"; ObjectID = "iOA-GF-jWq"; */
+"iOA-GF-jWq.normalTitle" = "رفض الطلب";
+
+/* Class = "UILabel"; text = "Delivery Code"; ObjectID = "kyt-BB-xoK"; */
+"kyt-BB-xoK.text" = "كود الشحن";
+
+/* Class = "UILabel"; text = "Order Status"; ObjectID = "lce-YC-f6q"; */
+"lce-YC-f6q.text" = "حالة الطلب";
+
+/* Class = "UILabel"; text = "Order Products"; ObjectID = "nY5-ud-n4K"; */
+"nY5-ud-n4K.text" = "منتجات الطلب";
+
+/* Class = "UIButton"; normalTitle = "Accept Order"; ObjectID = "oib-2l-9Xx"; */
+"oib-2l-9Xx.normalTitle" = "قبول الطلب";
+
+/* Class = "UIButton"; normalTitle = "Rate Order"; ObjectID = "qk5-rv-LEt"; */
+"qk5-rv-LEt.normalTitle" = "تقييم الطلب";
+
+"TDO-5t-2NJ.normalTitle" = "عرض فاتورة الطلب";
+
+
+/* Class = "UILabel"; text = "Order Total"; ObjectID = "wHM-xv-W9d"; */
+"wHM-xv-W9d.text" = "إجمالي الطلب";
+
+/* Class = "UILabel"; text = "Order Total"; ObjectID = "wHM-xv-W9d"; */
+"TKo-1U-ra8.text" = "سعر التوصيل";
+
+/* Class = "UILabel"; text = "Fast"; ObjectID = "y1b-qW-tAN"; */
+"y1b-qW-tAN.text" = "طلب سريع";
+
+/* Class = "UILabel"; text = "Fast"; ObjectID = "y1b-qW-tAN"; */
+"OO5-LT-Crk.text" = "القيمة المضافة";
+
+

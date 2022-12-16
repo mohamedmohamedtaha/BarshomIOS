@@ -22,8 +22,9 @@ class topSectionCell: UICollectionViewCell {
     var delegate:sectionDelegate?
     var index:IndexPath?
     var fromOrders = false
-  
+   var section:topSection?
   func cellConfigration(_ s:topSection,index:Int,selected:Int,width:CGFloat) {
+    section  = s
         if selected == index {
           indicatorView.backgroundColor = fromOrders ? Color.mainColor:Color.tintColor
           titleLb.textColor = fromOrders ? Color.mainColor:.white

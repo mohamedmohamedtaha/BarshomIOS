@@ -1,0 +1,71 @@
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "6pW-TZ-ED3"; */
+"6pW-TZ-ED3.placeholder" = "إسم المستخدم";
+
+/* Class = "UITextField"; placeholder = "Store Name"; ObjectID = "9iN-7M-sUC"; */
+"9iN-7M-sUC.placeholder" = "إسم المتجر";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Chd-Bm-KBU"; */
+"Chd-Bm-KBU.normalTitle" = "تسجيل";
+
+/* Class = "UILabel"; text = "If you are a driver for a store, write the name of the Store, and if you are not affiliated with a Store, write it as a free driver"; ObjectID = "OnL-HN-Jho"; */
+"OnL-HN-Jho.text" = "إذا أنت مندوب تابع لمحل أدخل أسم المحل وإذا غير تابع أكتب
+أنا مندوب حر";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "A8I-jA-gni"; */
+"A8I-jA-gni.placeholder" = "كود العميل";
+
+/* Class = "UITextField"; placeholder = "Mobile"; ObjectID = "PQL-8p-mj5"; */
+"PQL-8p-mj5.placeholder" = "رقم الجوال";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "PgE-Sh-s1e"; */
+"PgE-Sh-s1e.placeholder" = "المدينة";
+
+/* Class = "UITextField"; placeholder = "Bank Name"; ObjectID = "Wh1-fY-qKo"; */
+"Wh1-fY-qKo.placeholder" = "إسم البنك";
+
+/* Class = "UITextField"; placeholder = "Car Type"; ObjectID = "aAm-Dr-efE"; */
+"aAm-Dr-efE.placeholder" = "نوع السيارة";
+
+/* Class = "UITextField"; placeholder = "E-mail Address"; ObjectID = "bHi-cz-l3F"; */
+"bHi-cz-l3F.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Retype Password"; ObjectID = "duZ-H3-etq"; */
+"duZ-H3-etq.placeholder" = "تأكيد كلمة المرور";
+
+/* Class = "UINavigationItem"; title = "Edit Profile"; ObjectID = "emT-jt-wSv"; */
+"emT-jt-wSv.title" = "تسجيل مندوب";
+
+/* Class = "UITextField"; placeholder = "Swift Code"; ObjectID = "fc3-bQ-cEc"; */
+"fc3-bQ-cEc.placeholder" = "سويفت كود";
+
+/* Class = "UITextField"; placeholder = "Account Number"; ObjectID = "ffh-hC-3XW"; */
+"ffh-hC-3XW.placeholder" = "رقم الحساب";
+
+/* Class = "UILabel"; text = "profile Image"; ObjectID = "hfR-6p-f4q"; */
+"hfR-6p-f4q.text" = "الصورة الشخصية";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "lJ2-0J-AGw"; */
+"lJ2-0J-AGw.title" = " ";
+
+/* Class = "UILabel"; text = "I agree"; ObjectID = "oHu-9T-wZz"; */
+"oHu-9T-wZz.text" = "أوافق على";
+
+/* Class = "UILabel"; text = "Car license Image"; ObjectID = "qeN-yw-mhW"; */
+"qeN-yw-mhW.text" = "صوره إستمارة السيارة";
+
+/* Class = "UITextField"; placeholder = "Owner Name"; ObjectID = "uBQ-cT-NAJ"; */
+"uBQ-cT-NAJ.placeholder" = "إسم مالك المؤسسة";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "uk8-UG-pQh"; */
+"uk8-UG-pQh.text" = "✔︎";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "uzu-nY-zCk"; */
+"uzu-nY-zCk.placeholder" = "كلمة المرور";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "uzu-nY-zCk"; */
+"0hF-EF-s7k.placeholder" = "رقم الهوية";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "uzu-nY-zCk"; */
+"7vb-rD-Ugw.placeholder" = "رقم لوحة السيارة";
+

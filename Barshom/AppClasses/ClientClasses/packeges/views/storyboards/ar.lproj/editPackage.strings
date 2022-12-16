@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Change"; ObjectID = "4vs-6y-Kc0"; */
+"4vs-6y-Kc0.normalTitle" = "تغيير";
+
+/* Class = "UIButton"; normalTitle = "✕"; ObjectID = "DEx-42-zzq"; */
+"DEx-42-zzq.normalTitle" = "✕";
+
+/* Class = "UIViewController"; title = "Modal view"; ObjectID = "Dee-E6-jU2"; */
+"Dee-E6-jU2.title" = "Modal view";
+
+/* Class = "UINavigationItem"; title = "Determine the periods"; ObjectID = "OEN-dH-U2K"; */
+"OEN-dH-U2K.title" = "تحديد الفترات حسب الجدول";
+
+/* Class = "UILabel"; text = "Time is month"; ObjectID = "OtX-B1-qyG"; */
+"OtX-B1-qyG.text" = "Time is month";
+
+/* Class = "UILabel"; text = "Determine periods"; ObjectID = "S2A-T8-vS4"; */
+"S2A-T8-vS4.text" = "تحديد الفترات";
+
+/* Class = "UILabel"; text = "Delivery address"; ObjectID = "a2y-wC-Sg4"; */
+"a2y-wC-Sg4.text" = "عنوان التوصيل";
+
+/* Class = "UILabel"; text = "Delivery address"; ObjectID = "d43-Nf-rVH"; */
+"d43-Nf-rVH.text" = "عنوان التوصيل";
+
+/* Class = "UIButton"; normalTitle = "Pay Now"; ObjectID = "gJF-1M-p5K"; */
+"gJF-1M-p5K.normalTitle" = "إدفع الأن";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "hpm-OQ-KFa"; */
+"hpm-OQ-KFa.normalTitle" = "إضافة";
+
+/* Class = "UILabel"; text = "Delivery address"; ObjectID = "zjM-9O-nic"; */
+"zjM-9O-nic.text" = "عنوان التوصيل";

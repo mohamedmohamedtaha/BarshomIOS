@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Package Products"; ObjectID = "0r1-xf-zqU"; */
+"0r1-xf-zqU.text" = "منتجات الباقة";
+
+/* Class = "UILabel"; text = "Package Name"; ObjectID = "7pr-fl-pjH"; */
+"7pr-fl-pjH.text" = "إسم الباقة";
+
+/* Class = "UILabel"; text = "Package Price"; ObjectID = "897-LC-olb"; */
+"897-LC-olb.text" = "سعر الباقة";
+
+/* Class = "UILabel"; text = "25 Product"; ObjectID = "CJD-zy-349"; */
+"CJD-zy-349.text" = "25 Product";
+
+/* Class = "UILabel"; text = "1:3"; ObjectID = "Ckb-NC-Kzo"; */
+"Ckb-NC-Kzo.text" = "1:3";
+
+/* Class = "UILabel"; text = "Package Time"; ObjectID = "Mtv-ke-w7B"; */
+"Mtv-ke-w7B.text" = "مدة الباقة";
+
+/* Class = "UIButton"; normalTitle = "Subscribe to package"; ObjectID = "VKj-k4-X5i"; */
+"VKj-k4-X5i.normalTitle" = "إشتراك في الباقة";
+
+/* Class = "UILabel"; text = "30 SAR"; ObjectID = "aSk-HJ-giO"; */
+"aSk-HJ-giO.text" = "30 SAR";

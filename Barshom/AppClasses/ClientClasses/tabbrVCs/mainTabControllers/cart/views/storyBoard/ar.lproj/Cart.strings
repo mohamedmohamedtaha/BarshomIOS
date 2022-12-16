@@ -1,0 +1,152 @@
+
+/* Class = "UILabel"; text = "Pay online"; ObjectID = "3Re-JI-uF4"; */
+"3Re-JI-uF4.text" = "دفع إلكتروني";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "66X-h5-CA0"; */
+"66X-h5-CA0.text" = "✔︎";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "8WC-bd-2gF"; */
+"8WC-bd-2gF.text" = "✔︎";
+
+/* Class = "UILabel"; text = "Delivery date & time"; ObjectID = "9xZ-Hk-gce"; */
+"9xZ-Hk-gce.text" = "تاريخ و وقت التوصيل";
+
+/* Class = "UIViewController"; title = "Modal view"; ObjectID = "9zF-HW-ecs"; */
+"9zF-HW-ecs.title" = "Modal view";
+
+/* Class = "UILabel"; text = "saturday"; ObjectID = "Aqu-i9-fD2"; */
+"Aqu-i9-fD2.text" = "saturday";
+
+/* Class = "UILabel"; text = "st. - city - country"; ObjectID = "BKG-3K-6Us"; */
+"BKG-3K-6Us.text" = "st. - city - country";
+
+/* Class = "UILabel"; text = "Payment Gatway"; ObjectID = "BOj-XD-mMZ"; */
+"BOj-XD-mMZ.text" = "طريقة الدفع";
+
+/* Class = "UIButton"; normalTitle = "fast Order"; ObjectID = "FAD-Ld-X5B"; */
+"FAD-Ld-X5B.normalTitle" = "طلب سريع";
+
+/* Class = "UILabel"; text = "cash"; ObjectID = "HGZ-eO-9h1"; */
+"HGZ-eO-9h1.text" = "دفع عند الإستلام";
+
+/* Class = "UILabel"; text = "Network"; ObjectID = "KGi-jk-XF5"; */
+"KGi-jk-XF5.text" = "شبكة";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "LIv-sn-mCM"; */
+"LIv-sn-mCM.text" = "✔︎";
+
+/* Class = "UILabel"; text = "Enter discount coupon to enjoy the discount"; ObjectID = "Nff-t6-vSE"; */
+"Nff-t6-vSE.text" = "ادخل كوبون الخصم للإستفادة من عرض الخصم";
+
+/* Class = "UILabel"; text = "Bank transfer"; ObjectID = "OOb-hh-uJP"; */
+"OOb-hh-uJP.text" = "تحويل بنكي";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "OTd-5A-qJk"; */
+"OTd-5A-qJk.text" = "name";
+
+/* Class = "UIButton"; normalTitle = "Confirmation"; ObjectID = "OsT-RY-1Ue"; */
+"OsT-RY-1Ue.normalTitle" = "التأكيد";
+
+/* Class = "UILabel"; text = "Order Number : 123123123"; ObjectID = "PsG-w9-d4m"; */
+"PsG-w9-d4m.text" = "Order Number : 123123123";
+
+/* Class = "UILabel"; text = "Today"; ObjectID = "QFV-sB-hHP"; */
+"QFV-sB-hHP.text" = "اليوم";
+
+/* Class = "UILabel"; text = "Enter Your Bank Transfer Data"; ObjectID = "RE0-Lv-GQp"; */
+"pfx-rv-Wqt.text" = "ادخل بيانات التحويل البنكي";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Rv5-Uf-of3"; */
+"Rv5-Uf-of3.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "Select Your payment Type"; ObjectID = "S4B-lX-MDZ"; */
+"S4B-lX-MDZ.text" = "حدد طريقة الدفع المناسبة";
+
+/* Class = "UITextField"; placeholder = "Sender's account"; ObjectID = "S5K-b5-CAf"; */
+"1jl-IS-vXJ.placeholder" = "رقم الحساب";
+
+/* Class = "UINavigationItem"; title = "Discount coupon"; ObjectID = "SZv-jX-mVM"; */
+"SZv-jX-mVM.title" = "كوبون الخصم";
+
+/* Class = "UILabel"; text = "details details  details "; ObjectID = "TSn-AI-X9w"; */
+"TSn-AI-X9w.text" = "details details  details ";
+
+/* Class = "UITextField"; placeholder = "Sender's name"; ObjectID = "UmE-Qo-5Id"; */
+"O2d-8i-NP8.placeholder" = "اسم صاحب الحساب";
+
+"1tU-qx-1aJ.placeholder" = "إختر المندوب"
+
+/* Class = "UILabel"; text = "20/2/2021"; ObjectID = "V11-bI-ABN"; */
+"V11-bI-ABN.text" = "20/2/2021";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "VYE-cR-FnX"; */
+"VYE-cR-FnX.text" = "✔︎";
+
+/* Class = "UIButton"; normalTitle = "Apply code"; ObjectID = "WfC-Aq-RuD"; */
+"WfC-Aq-RuD.normalTitle" = "إضافة الكوبون";
+
+/* Class = "UILabel"; text = "Total Price : 50 SAR"; ObjectID = "Wkj-XY-Bhi"; */
+"Wkj-XY-Bhi.text" = "Total Price : 50 SAR";
+
+/* Class = "UILabel"; text = "Delivery Address"; ObjectID = "Wlf-S1-SS6"; */
+"Wlf-S1-SS6.text" = "عنوان التوصيل";
+
+/* Class = "UILabel"; text = "Bank Transfer"; ObjectID = "Xam-NS-JRs"; */
+"h9n-fQ-1fb.text" = "تحويل بنكي";
+
+/* Class = "UIButton"; normalTitle = "✕"; ObjectID = "c73-am-5qq"; */
+"c73-am-5qq.normalTitle" = "✕";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "cby-tG-Svf"; */
+"cby-tG-Svf.text" = "✔︎";
+
+/* Class = "UILabel"; text = "Quantity 2 Kilo"; ObjectID = "cys-LQ-aO9"; */
+"cys-LQ-aO9.text" = "Quantity 2 Kilo";
+
+/* Class = "UITextField"; placeholder = "Choose bank"; ObjectID = "ed4-aM-qmr"; */
+"ker-eB-37z.placeholder" = "إختر البنك";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "fXS-qv-C7s"; */
+"fXS-qv-C7s.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Transaction Photo"; ObjectID = "hpy-O9-3EO"; */
+"tz7-he-75w.normalTitle" = "صورة التحويل";
+
+/* Class = "UILabel"; text = "Tomato"; ObjectID = "i9M-Lz-2AA"; */
+"i9M-Lz-2AA.text" = "Tomato";
+
+/* Class = "UILabel"; text = "kilo Price: 25 SAR"; ObjectID = "iEv-Fl-J6M"; */
+"iEv-Fl-J6M.text" = "kilo Price: 25 SAR";
+
+/* Class = "UILabel"; text = "Pay cash"; ObjectID = "jDg-4f-IED"; */
+"jDg-4f-IED.text" = "دفع كاش";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "lPr-C6-PcQ"; */
+"lPr-C6-PcQ.text" = "✔︎";
+
+/* Class = "UILabel"; text = "Pay with wallet"; ObjectID = "mUj-XP-nwg"; */
+"mUj-XP-nwg.text" = "دفع بالمحفظة";
+
+/* Class = "UILabel"; text = "Tomorrow"; ObjectID = "nMh-sQ-3dO"; */
+"nMh-sQ-3dO.text" = "غداً";
+
+/* Class = "UILabel"; text = "Choose delivery date & time"; ObjectID = "oT5-J7-rmK"; */
+"oT5-J7-rmK.text" = "اختر التاريخ و الوقت للتوصيل";
+
+/* Class = "UITextField"; placeholder = "Discount coupon"; ObjectID = "p7f-Sr-NpV"; */
+"p7f-Sr-NpV.placeholder" = "كوبون الخصم";
+
+/* Class = "UILabel"; text = "saturday"; ObjectID = "t2U-CH-laT"; */
+"t2U-CH-laT.text" = "saturday";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "tOr-FM-4e9"; */
+"tOr-FM-4e9.text" = "✔︎";
+
+/* Class = "UIButton"; normalTitle = "Pay Now"; ObjectID = "v85-Og-6e6"; */
+"v85-Og-6e6.normalTitle" = "إدفع الأن";
+
+/* Class = "UILabel"; text = "Notes"; ObjectID = "vxh-cB-1dK"; */
+"vxh-cB-1dK.text" = "الملاحظات";
+
+/* Class = "UILabel"; text = "Payment Details"; ObjectID = "xR3-hv-Vc1"; */
+"xR3-hv-Vc1.text" = "تفاصيل الدفع";

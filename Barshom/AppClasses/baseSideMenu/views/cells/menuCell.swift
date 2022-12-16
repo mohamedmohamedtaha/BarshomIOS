@@ -19,7 +19,7 @@ class menuCell: UITableViewCell {
   
   func cellConfigration(_ m:sideMenu){
     img.image = m.img
-    titleLb.text = m.title
+    titleLb.text = m.title!.localized()
   }
 
 

@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "الرصيد الحالي"; ObjectID = "7fa-ZF-gYz"; */
+"7fa-ZF-gYz.text" = "الرصيد الحالي";
+
+/* Class = "UILabel"; text = "220 Point"; ObjectID = "7hv-qm-31a"; */
+"7hv-qm-31a.text" = "220 Point";
+
+/* Class = "UILabel"; text = "النقاط "; ObjectID = "L0O-3Z-6Ae"; */
+"L0O-3Z-6Ae.text" = "النقاط ";
+
+/* Class = "UILabel"; text = "الرصيد"; ObjectID = "duf-6W-01E"; */
+"duf-6W-01E.text" = "الرصيد";
+
+/* Class = "UIButton"; normalTitle = "Recharge"; ObjectID = "fB5-Br-68z"; */
+"fB5-Br-68z.normalTitle" = "شحن الرصيد";
+
+/* Class = "UILabel"; text = "النقاط المكتسبة"; ObjectID = "n20-pA-U9S"; */
+"n20-pA-U9S.text" = "النقاط المكتسبة";
+
+/* Class = "UILabel"; text = "220 SAR"; ObjectID = "qXP-Gk-TQU"; */
+"qXP-Gk-TQU.text" = "220 SAR";

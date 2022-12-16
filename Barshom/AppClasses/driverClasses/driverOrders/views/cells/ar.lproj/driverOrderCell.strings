@@ -1,0 +1,101 @@
+
+/* Class = "UILabel"; text = "Products Count"; ObjectID = "0tG-t1-A2i"; */
+"0tG-t1-A2i.text" = "عدد المنجات";
+
+/* Class = "UIButton"; normalTitle = "Delivered"; ObjectID = "1vS-SK-ClY"; */
+"1vS-SK-ClY.normalTitle" = "تم التوصيل";
+
+/* Class = "UILabel"; text = "123123123"; ObjectID = "3Kj-8G-HD6"; */
+"3Kj-8G-HD6.text" = "123123123";
+
+/* Class = "UIButton"; normalTitle = "Reject"; ObjectID = "7GF-Xv-oUV"; */
+"7GF-Xv-oUV.normalTitle" = "رفض";
+
+/* Class = "UILabel"; text = "#1233234"; ObjectID = "86U-ej-Hlc"; */
+"86U-ej-Hlc.text" = "#1233234";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "CLt-0F-w3G"; */
+"CLt-0F-w3G.text" = "التفاصيل";
+
+/* Class = "UIButton"; normalTitle = "Complaint"; ObjectID = "Kkj-pa-G0j"; */
+"Kkj-pa-G0j.normalTitle" = "إرسال شكوى";
+
+/* Class = "UILabel"; text = "Store Name"; ObjectID = "Mhm-mM-xBe"; */
+"Mhm-mM-xBe.text" = "إسم المتجر";
+
+/* Class = "UILabel"; text = "25 SAR"; ObjectID = "NOx-TH-w2P"; */
+"NOx-TH-w2P.text" = "25 SAR";
+
+/* Class = "UILabel"; text = "Client Address"; ObjectID = "RCr-Cj-4En"; */
+"RCr-Cj-4En.text" = "عنوان العميل";
+
+/* Class = "UILabel"; text = "10-10-2010"; ObjectID = "RZE-1J-3R6"; */
+"RZE-1J-3R6.text" = "10-10-2010";
+
+/* Class = "UILabel"; text = "Order Date"; ObjectID = "TOO-Hr-4nn"; */
+"TOO-Hr-4nn.text" = "تاريخ الطلب";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Toq-aw-Nv1"; */
+"Toq-aw-Nv1.text" = "الإسم";
+
+/* Class = "UILabel"; text = "Driver Commission"; ObjectID = "V9N-H3-63k"; */
+"V9N-H3-63k.text" = "نسبة المندوب";
+
+/* Class = "UIButton"; normalTitle = "Rate"; ObjectID = "Y1E-6f-sVg"; */
+"Y1E-6f-sVg.normalTitle" = "تقييم الطلب";
+
+/* Class = "UILabel"; text = "Payment Method"; ObjectID = "bWd-mw-cik"; */
+"bWd-mw-cik.text" = "طريقة الدفع";
+
+/* Class = "UIButton"; normalTitle = "Delivering"; ObjectID = "blB-v0-NJK"; */
+"blB-v0-NJK.normalTitle" = "جاري التوصيل";
+
+/* Class = "UILabel"; text = "Client Phone"; ObjectID = "djp-9d-3Wl"; */
+"djp-9d-3Wl.text" = "رقم جوال العميل";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "ggV-Yv-yRN"; */
+"ggV-Yv-yRN.text" = "الحالة";
+
+/* Class = "UILabel"; text = "Order Total"; ObjectID = "heK-gI-X7S"; */
+"heK-gI-X7S.text" = "إجمالي الطلب";
+
+/* Class = "UILabel"; text = "19 SAR"; ObjectID = "hkC-ij-oba"; */
+"hkC-ij-oba.text" = "19 SAR";
+
+/* Class = "UILabel"; text = "st. city-country"; ObjectID = "ja0-h5-B5N"; */
+"ja0-h5-B5N.text" = "st. city-country";
+
+/* Class = "UILabel"; text = "100 SAR"; ObjectID = "k7a-yR-Jta"; */
+"k7a-yR-Jta.text" = "100 SAR";
+
+/* Class = "UILabel"; text = "st. city-country"; ObjectID = "kIl-kx-PaN"; */
+"kIl-kx-PaN.text" = "st. city-country";
+
+/* Class = "UILabel"; text = "Store Address"; ObjectID = "oGX-b7-DNv"; */
+"oGX-b7-DNv.text" = "عنوان المتجر";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "p2l-H3-YI4"; */
+"p2l-H3-YI4.text" = "2";
+
+/* Class = "UILabel"; text = "1233123"; ObjectID = "pI0-BL-eNu"; */
+"pI0-BL-eNu.text" = "1233123";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "tCm-Ue-PZt"; */
+"tCm-Ue-PZt.text" = "الإسم";
+
+/* Class = "UILabel"; text = "Client Name"; ObjectID = "toK-36-kZj"; */
+"toK-36-kZj.text" = "إسم العميل";
+
+/* Class = "UILabel"; text = ">"; ObjectID = "u1J-ZF-DIe"; */
+"u1J-ZF-DIe.text" = ">";
+
+/* Class = "UILabel"; text = "Delivery Price"; ObjectID = "zFx-ef-vJP"; */
+"zFx-ef-vJP.text" = "سعر التوصيل";
+
+/* Class = "UILabel"; text = "123123123"; ObjectID = "zYW-wj-lfC"; */
+"zYW-wj-lfC.text" = "123123123";
+
+/* Class = "UILabel"; text = "123123123"; ObjectID = "zYW-wj-lfC"; */
+"K1y-FE-Mqs.text" = "القيمة المضافة";
+
+

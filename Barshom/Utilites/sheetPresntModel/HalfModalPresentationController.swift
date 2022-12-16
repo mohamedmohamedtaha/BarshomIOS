@@ -25,8 +25,10 @@ class HalfModalPresentationController : UIPresentationController {
         if let dimmedView = _dimmingView {
             return dimmedView
         }
-        
-        let view = UIView(frame: CGRect(x: 0, y: 0, width: containerView!.bounds.width, height: containerView!.bounds.height))
+        let height = containerView != nil ? containerView!.bounds.height : Constants.ScreenHeight
+        let width = containerView != nil ? containerView!.bounds.width : Constants.ScreenWidth
+
+        let view = UIView(frame: CGRect(x: 0, y: 0, width: width, height: height))
         
         // Blur Effect
         let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)

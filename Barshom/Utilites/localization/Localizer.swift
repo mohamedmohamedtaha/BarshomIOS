@@ -16,7 +16,7 @@ class Localizer {
 extension Bundle {
     @objc func customLocalizedString(forKey key: String, value: String?, table tableName: String?) -> String
     {
-        let currentLang = Language.currentLanguage()
+        let currentLang = LanguageManager.isArabic ? "ar" : "Base"
         var cBundel = Bundle()
         if let path = Bundle.main.path(forResource: currentLang, ofType: "lproj"){
             cBundel = Bundle(path: path)!
@@ -36,7 +36,7 @@ extension String {
 
             path = Bundle.main.path(forResource: "ar", ofType: "lproj")
         }else{
-            path = Bundle.main.path(forResource: "en", ofType: "lproj")
+            path = Bundle.main.path(forResource: "Base", ofType: "lproj")
         }
 
         let bundle = Bundle(path: path!)

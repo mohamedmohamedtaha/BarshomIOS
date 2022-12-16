@@ -7,35 +7,42 @@
 
 import UIKit
 
+var shiftsList = [Shifts]()
 class subscribePackageDetailsVC: UIViewController{
   
-  
+  var sectionsCount = 0
   @IBOutlet weak var tableView: UITableView!
-  
+    var packageData: Package?
+
   override func viewDidLoad() {
         super.viewDidLoad()
     handleUI()
     }
   
   func handleUI(){
-    
-    //handleTableView
-    
+    sectionsCount = 3+packageData!.times!.count
     tableView.register(UINib(nibName: packageDetailsCell.identifier, bundle: nil), forCellReuseIdentifier: packageDetailsCell.identifier)
     tableView.register(UINib(nibName: appointmentsHeaderCell.identifier, bundle: nil), forCellReuseIdentifier: appointmentsHeaderCell.identifier)
     tableView.register(UINib(nibName: appointmentCell.identifier, bundle: nil), forCellReuseIdentifier: appointmentCell.identifier)
     tableView.register(UINib(nibName: mainPackagesCell.identifier, bundle: nil), forCellReuseIdentifier: mainPackagesCell.identifier)
-    tableView.register(UINib(nibName: pacakseAddressCell.identifier, bundle: nil), forCellReuseIdentifier: pacakseAddressCell.identifier)
-    tableView.register(UINib(nibName: appointmentSubscripedCell.identifier, bundle: nil), forCellReuseIdentifier: appointmentSubscripedCell.identifier)
+//    tableView.register(UINib(nibName: pacakseAddressCell.identifier, bundle: nil), forCellReuseIdentifier: pacakseAddressCell.identifier)
     
     tableView.dataSource = self
     tableView.delegate = self
-    Utilities.delay {
-      self.tableView.reloadData()
+    UserService.shared.getShifts { (shifts) in
+        shiftsList = shifts
+        self.tableView.reloadData()
     }
+    //handleTableView
+    
+    
+    
   }
   
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+    }
 }
  
 extension subscribePackageDetailsVC:appointmentSubscripedCellDelegate {
@@ -45,16 +52,18 @@ extension subscribePackageDetailsVC:appointmentSubscripedCellDelegate {
 }
 extension subscribePackageDetailsVC:UITableViewDataSource,UITableViewDelegate {
   func numberOfSections(in tableView: UITableView) -> Int {
-    return 4
+    return sectionsCount
   }
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     switch section {
     case 0:
-      return 2
+      return 1
     case 1:
-      return (1+2)
-    case 2:
-      return (1+2)
+      return (0)
+    case 2..<sectionsCount-1:
+        return (1+packageData!.times![section-2].times!.count)
+    case sectionsCount-1:
+        return 1
     default:
       return 1
     }
@@ -63,33 +72,37 @@ extension subscribePackageDetailsVC:UITableViewDataSource,UITableViewDelegate {
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     switch indexPath.section {
     case 0:
-      if indexPath.row == 0 {
       let cell = tableView.dequeueReusableCell(withIdentifier:
                                                 packageDetailsCell.identifier, for: indexPath) as! packageDetailsCell
-      cell.cellConfigration()
+        cell.isSubscribed = true
+        cell.cellConfigration(packageData: packageData!)
       return cell
-      }else {
-        let cell = tableView.dequeueReusableCell(withIdentifier:
-                                                  pacakseAddressCell.identifier, for: indexPath) as! pacakseAddressCell
-        cell.cellConfigration()
-        return cell
-      }
-    case 1,2:
+      
+//      else {
+//        let cell = tableView.dequeueReusableCell(withIdentifier:
+//                                                  pacakseAddressCell.identifier, for: indexPath) as! pacakseAddressCell
+//        cell.cellConfigration()
+//        return cell
+//      }
+    case 2..<sectionsCount-1:
       switch indexPath.row {
       case 0:
         let cell = tableView.dequeueReusableCell(withIdentifier:
                                                   appointmentsHeaderCell.identifier, for: indexPath) as! appointmentsHeaderCell
-        cell.cellConfigration("First Week")
+        cell.cellConfigration(packageData!.times![indexPath.section-2].day!)
         return cell
       default:
         let cell = tableView.dequeueReusableCell(withIdentifier:
-                                                  appointmentSubscripedCell.identifier, for: indexPath) as! appointmentSubscripedCell
-        cell.delegate = self
+                                                  appointmentCell.identifier, for: indexPath) as! appointmentCell
+        cell.currentIndex = indexPath
+        cell.showClicks = false
+        cell.cellConfigration(dayModel: packageData!.times![indexPath.section-2].getWeeksList()[indexPath.row-1], packageData: packageData!.package_times![indexPath.row-1])
         return cell
       }
-    case 3:
+    case sectionsCount-1:
       let cell = tableView.dequeueReusableCell(withIdentifier: mainPackagesCell.identifier, for: indexPath) as! mainPackagesCell
       cell.cellVC = self
+        cell.packProductList = packageData!.package_products!
       cell.cellConfigration(.packageProduct)
     return cell
       
@@ -100,30 +113,25 @@ extension subscribePackageDetailsVC:UITableViewDataSource,UITableViewDelegate {
   }
   
   func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-    return (section == 3 || section == 1) ? 40:0
+    return (section == sectionsCount-1 || section == 1) ? 30:0
   }
   
   func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
     if section == 1 {
     let headercell = UIView()
     headercell.backgroundColor = .white
-    let Lb = UILabel(frame: CGRect(x: 20, y: 0, width: Constants.ScreenWidth, height: 40))
-    Lb.text =  Strings.appointmentsAvailable.Localized
+        let Lb = UILabel(frame: CGRect(x:LanguageManager.isArabic ? Constants.ScreenWidth-230 : 0, y: 0, width: 200, height: 30))
+        Lb.text =  Resources.Common.determinedPeriods
     Lb.font = UIFont.boldSystemFont(ofSize: 15)
     headercell.addSubview(Lb)
-    let bt = UIButton(frame: CGRect(x: Constants.ScreenWidth-80, y: 0, width: 50, height: 40))
-    bt.setTitle(Strings.Edit.Localized, for: .normal)
-    bt.setTitleColor(Color.mainColor, for: .normal)
-    bt.addTarget(self, action:  #selector(editAction), for: .touchUpInside)
-    if section == 1 {
-      headercell.addSubview(bt)
-    }
+    
     return headercell
-    }else if section == 3 {
+    }
+    if section == sectionsCount-1 {
       let headercell = UIView()
       headercell.backgroundColor = .white
-      let Lb = UILabel(frame: CGRect(x: 20, y: 0, width: Constants.ScreenWidth, height: 40))
-      Lb.text =  Strings.ProductsInPackage.Localized
+      let Lb = UILabel(frame: CGRect(x:LanguageManager.isArabic ? Constants.ScreenWidth-240 : 0, y: 0, width: 205, height: 30))
+      Lb.text =  Strings.ProductsInPackage.localized()
       Lb.font = UIFont.boldSystemFont(ofSize: 15)
       headercell.addSubview(Lb)
       return headercell

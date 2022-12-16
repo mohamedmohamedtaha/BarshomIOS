@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "7sp-yx-BCC"; */
+"7sp-yx-BCC.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ALt-xw-WJZ"; */
+"ALt-xw-WJZ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HPc-ua-THw"; */
+"HPc-ua-THw.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Lbq-rE-iMg"; */
+"Lbq-rE-iMg.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YSJ-vb-dgE"; */
+"YSJ-vb-dgE.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "g3r-ZE-PLd"; */
+"g3r-ZE-PLd.normalTitle" = "إرسال";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "qtD-93-jlu"; */
+"qtD-93-jlu.placeholder" = "إسم المستخدم";

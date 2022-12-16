@@ -10,33 +10,35 @@ import Foundation
 import UIKit
 
 struct AppFontName {
-    static let Arlight = "Helvetica-Light"
-    static let ArMedium = "HelveticaNeueW23forSKY-Reg"
-    static let Arbold = "HelveticaNeueW23forSKY-Bd"
+    static let Arlight = "DINNextLTW23-Regular"
+    static let ArMedium = "DINNextLTW23-Regular"
+    static let Arbold = "DINNextLTW23-Regular"
     
-    static let Enlight = "MyriadPro-Semibold"
-    static let EnMedium = "MyriadPro-Semibold"
-    static let Enbold = "MyriadPro-Semibold"
-    
+    static let Enlight = "DINNextLTW23-Regular"
+    static let EnMedium = "DINNextLTW23-Regular"
+    static let Enbold = "DINNextLTW23-Regular"
+//    static let Enbold = "Poppins-Regular"
+
 }
 
 extension UIFontDescriptor.AttributeName {
     static let nsctFontUIUsage = UIFontDescriptor.AttributeName(rawValue: "NSCTFontUIUsageAttribute")
 }
 
+
 extension UIFont {
 
     @objc class func myLightSystemFont(ofSize size: CGFloat) -> UIFont {
-        return (Language.currentLanguage() == "ar") ? UIFont(name: AppFontName.Arlight, size: size)!:UIFont(name: AppFontName.Enlight, size: size)!
+        return (LanguageManager.isArabic) ? UIFont(name: AppFontName.Arlight, size: size)!:UIFont(name: AppFontName.Enlight, size: size)!
 
     }
     
     @objc class func mySystemFont(ofSize size: CGFloat) -> UIFont {
-        return (Language.currentLanguage() == "ar") ? UIFont(name: AppFontName.ArMedium, size: size)!:UIFont(name: AppFontName.ArMedium, size: size)!
+        return (LanguageManager.isArabic) ? UIFont(name: AppFontName.ArMedium, size: size)!:UIFont(name: AppFontName.ArMedium, size: size)!
     }
 
     @objc class func myBoldSystemFont(ofSize size: CGFloat) -> UIFont {
-        return (Language.currentLanguage() == "ar") ? UIFont(name: AppFontName.Arbold, size: size)!:UIFont(name: AppFontName.Enbold, size: size)!
+        return (LanguageManager.isArabic) ? UIFont(name: AppFontName.Arbold, size: size)!:UIFont(name: AppFontName.Enbold, size: size)!
     }
 
     
@@ -50,13 +52,13 @@ extension UIFont {
         var fontName = ""
         switch fontAttribute {
         case "CTFontLightUsage":
-            fontName =  (Language.currentLanguage() == "ar") ? AppFontName.Arlight:AppFontName.Enlight
+            fontName =  (LanguageManager.isArabic) ? AppFontName.Arlight:AppFontName.Enlight
         case "CTFontMediumUsage":
-            fontName = (Language.currentLanguage() == "ar") ? AppFontName.ArMedium:AppFontName.EnMedium
+            fontName = (LanguageManager.isArabic) ? AppFontName.ArMedium:AppFontName.EnMedium
         case "CTFontEmphasizedUsage", "CTFontBoldUsage":
-            fontName =  (Language.currentLanguage() == "ar") ?  AppFontName.Arbold:AppFontName.Enbold
+            fontName =  (LanguageManager.isArabic) ?  AppFontName.Arbold:AppFontName.Enbold
         default:
-            fontName =  (Language.currentLanguage() == "ar") ? AppFontName.ArMedium:AppFontName.EnMedium
+            fontName =  (LanguageManager.isArabic) ? AppFontName.ArMedium:AppFontName.EnMedium
         }
         self.init(name: fontName, size: fontDescriptor.pointSize)!
     }
@@ -85,17 +87,27 @@ extension UIFont {
             let myInitCoderMethod = class_getInstanceMethod(self, #selector(UIFont.init(myCoder:))) {
             method_exchangeImplementations(initCoderMethod, myInitCoderMethod)
         }
-        
+        let attributes = [NSAttributedString.Key.font: (LanguageManager.isArabic) ? UIFont(name: AppFontName.ArMedium, size: 18)!:UIFont(name: AppFontName.ArMedium, size: 18)!,NSAttributedString.Key.foregroundColor:UIColor.white]
+
         let navigationBarAppearace = UINavigationBar.appearance()
-         navigationBarAppearace.tintColor = UIColor.white
+        navigationBarAppearace.tintColor = UIColor.white
+        navigationBarAppearace.backgroundColor = Color.mainColor
+         navigationBarAppearace.titleTextAttributes = attributes
          navigationBarAppearace.barTintColor = Color.mainColor
+//        UIApplication.shared.statusBarStyle = .lightContent
+//        UIApplication.shared.statusBarUIView?.backgroundColor = Color.mainColor
+//        UINavigationBar.appearance().backgroundColor =  Color.mainColor // backgorund color with gradient
+//        // or
+//        UINavigationBar.appearance().barTintColor =  Color.mainColor
+        
+        
          //navigationBarAppearace.setBackgroundImage(UIImage(named: "btopbg")!.resizableImage(withCapInsets: UIEdgeInsets(top: 0, left: 0, bottom: 0 ,right: 0), resizingMode: .stretch), for: .default)
 
 
 
 
 //        let appearance = UITabBarItem.appearance()
-//        if (Language.currentLanguage() == "ar") {
+//        if (LanguageManager.isArabic) {
 //            let attributes = [NSAttributedString.Key.font:UIFont(name: AppFontName.ArMedium, size: 14)!]
 //            appearance.setTitleTextAttributes(attributes, for: .normal)
 //        }else {
@@ -110,7 +122,7 @@ extension UIFont {
             }
         }
 //        
-//        if (Language.currentLanguage() == "ar") {
+//        if (LanguageManager.isArabic) {
 //           navigationBarAppearace.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white,NSAttributedString.Key.font: UIFont(name: AppFontName.ArMedium, size: 20)!]
 //        }else {
 //        navigationBarAppearace.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white,NSAttributedString.Key.font: UIFont(name: AppFontName.Enlight, size: 20)!]

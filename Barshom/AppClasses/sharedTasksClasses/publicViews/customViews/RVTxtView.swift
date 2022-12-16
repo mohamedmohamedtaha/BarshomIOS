@@ -22,7 +22,7 @@ class RVTxtView :JVFloatLabeledTextView,UITextViewDelegate{
   
   override func draw(_ rect: CGRect) {
       // Drawing code
-      if Language.currentLanguage() == "ar" {
+      if LanguageManager.isArabic {
           self.textAlignment = .right
       }else {
           self.textAlignment = .left
@@ -122,7 +122,9 @@ extension RVTxtView {
       View.addSubview(errorStarLb)
 
   }
-  
+    func addPadding(amount: CGFloat? = 8) {
+        self.textContainerInset = UIEdgeInsets(top: 0, left: amount!, bottom: 0, right: amount!)
+        }
 }
 
 extension RVTxtFaild {

@@ -1,0 +1,81 @@
+
+/* Class = "UILabel"; text = "Riad"; ObjectID = "0sI-oc-OJf"; */
+"0sI-oc-OJf.text" = "Riad";
+
+/* Class = "UITextField"; placeholder = "Retype Password"; ObjectID = "23R-pa-Ett"; */
+"23R-pa-Ett.placeholder" = "تأكيد كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Edit Profile"; ObjectID = "2ZR-Lj-Dbt"; */
+"2ZR-Lj-Dbt.normalTitle" = "تعديل الحساب";
+
+/* Class = "UILabel"; text = "info@email.com"; ObjectID = "Bxn-vQ-jZP"; */
+"Bxn-vQ-jZP.text" = "info@email.com";
+
+/* Class = "UITextField"; placeholder = "Mobile"; ObjectID = "DeI-mN-sG3"; */
+"DeI-mN-sG3.placeholder" = "رقم الجوال";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "ER7-9K-0Ed"; */
+"ER7-9K-0Ed.placeholder" = "المدينة";
+
+/* Class = "UILabel"; text = "U1233"; ObjectID = "G7Q-1p-5ck"; */
+"G7Q-1p-5ck.text" = "U1233";
+
+/* Class = "UIButton"; normalTitle = "Edit Password"; ObjectID = "G8j-8p-q57"; */
+"G8j-8p-q57.normalTitle" = "تعديل كلمة المرور";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Hxe-VU-sHl"; */
+"Hxe-VU-sHl.text" = "إسم المستخدم";
+
+/* Class = "UINavigationItem"; title = "My Account"; ObjectID = "Im6-Ru-UQH"; */
+"Im6-Ru-UQH.title" = "حسابي";
+
+/* Class = "UILabel"; text = "Ahmed Mohamed"; ObjectID = "JcS-sc-KYs"; */
+"JcS-sc-KYs.text" = "Ahmed Mohamed";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "MMi-ou-5lM"; */
+"MMi-ou-5lM.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Client Code"; ObjectID = "MvE-sM-WLN"; */
+"MvE-sM-WLN.placeholder" = "كود العميل";
+
+/* Class = "UITextField"; placeholder = "E-mail Address"; ObjectID = "O0E-bZ-qCF"; */
+"O0E-bZ-qCF.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "TV4-TK-IKF"; */
+"TV4-TK-IKF.placeholder" = "إسم المستخدم";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Zoc-9f-FEO"; */
+"Zoc-9f-FEO.normalTitle" = "حفظ";
+
+/* Class = "UILabel"; text = "E-mail Address"; ObjectID = "cIy-qr-lT1"; */
+"cIy-qr-lT1.text" = "البريد الإلكتروني";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "cVC-pZ-df6"; */
+"cVC-pZ-df6.text" = "المدينة";
+
+/* Class = "UITextField"; placeholder = "Old Password"; ObjectID = "h3U-YL-GuK"; */
+"h3U-YL-GuK.placeholder" = "كلمة المرور القديمة";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "iJB-FE-b9w"; */
+"iJB-FE-b9w.placeholder" = "كلمة المرور الجديدة";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "iWt-LR-7mO"; */
+"iWt-LR-7mO.text" = "رقم الجوال";
+
+/* Class = "UINavigationItem"; title = "Edit Password"; ObjectID = "k6O-AZ-WmW"; */
+"k6O-AZ-WmW.title" = "تعديل كلمة المرور";
+
+/* Class = "UINavigationItem"; title = "Edit Profile"; ObjectID = "lly-s1-lUY"; */
+"lly-s1-lUY.title" = "تعديل الحساب";
+
+/* Class = "UILabel"; text = "Client Code"; ObjectID = "rgZ-8b-CDw"; */
+"rgZ-8b-CDw.text" = "كود العميل";
+
+/* Class = "UILabel"; text = "01212312123123"; ObjectID = "v3W-bW-0Z2"; */
+"v3W-bW-0Z2.text" = "01212312123123";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "vsE-Tg-nLh"; */
+"vsE-Tg-nLh.normalTitle" = "حفظ";
+
+/* Class = "UIBarButtonItem"; title = "  "; ObjectID = "x1F-5m-tjR"; */
+"x1F-5m-tjR.title" = "  ";

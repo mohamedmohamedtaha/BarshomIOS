@@ -1,0 +1,87 @@
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "2Xw-wt-1bJ"; */
+"2Xw-wt-1bJ.text" = "0%";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "3ys-16-Hns"; */
+"3ys-16-Hns.normalTitle" = "إضافة";
+
+/* Class = "UILabel"; text = "Order Details"; ObjectID = "7FT-9d-dOC"; */
+"7FT-9d-dOC.text" = "تفاصيل الطلب";
+
+/* Class = "UILabel"; text = "Products Count"; ObjectID = "CoV-ou-x5y"; */
+"CoV-ou-x5y.text" = "عدد المنتجات";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "Daj-Zs-n6p"; */
+"Daj-Zs-n6p.normalTitle" = "إضافة";
+
+/* Class = "UILabel"; text = "Delivery address"; ObjectID = "I0l-KX-e0V"; */
+"I0l-KX-e0V.text" = "عنوان التوصيل";
+
+/* Class = "UILabel"; text = "Order Total"; ObjectID = "K1t-nm-7hE"; */
+"K1t-nm-7hE.text" = "إجمالي الطلب";
+
+/* Class = "UILabel"; text = "Code"; ObjectID = "LT0-iG-LZL"; */
+"LT0-iG-LZL.text" = "الكود";
+
+/* Class = "UIButton"; normalTitle = "Remove"; ObjectID = "Ub8-1v-q6y"; */
+"Ub8-1v-q6y.normalTitle" = "حذف";
+
+/* Class = "UILabel"; text = "200 SAR"; ObjectID = "VCg-kP-pwJ"; */
+"VCg-kP-pwJ.text" = "200 SAR";
+
+/* Class = "UILabel"; text = "Discount"; ObjectID = "XM2-A6-Vg1"; */
+"XM2-A6-Vg1.text" = "الخصم";
+
+/* Class = "UILabel"; text = "The price includes VAT"; ObjectID = "Xip-tp-jmo"; */
+"Xip-tp-jmo.text" = "السعر يشمل ضريبة القيمة المضافة";
+
+/* Class = "UILabel"; text = "Delivery address"; ObjectID = "YIC-Ai-hM9"; */
+"YIC-Ai-hM9.text" = "عنوان التوصيل";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "c2n-G6-eEo"; */
+"c2n-G6-eEo.text" = "سعر المنتجات";
+
+/* Class = "UIButton"; normalTitle = "Change"; ObjectID = "ecn-vm-K9b"; */
+"ecn-vm-K9b.normalTitle" = "تغيير";
+
+/* Class = "UILabel"; text = "10 %"; ObjectID = "eod-yC-3TZ"; */
+"eod-yC-3TZ.text" = "10 %";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "ewD-hw-hsP"; */
+"ewD-hw-hsP.text" = "2";
+
+/* Class = "UILabel"; text = "valid till"; ObjectID = "hry-BG-8vx"; */
+"hry-BG-8vx.text" = "صالح حتى";
+
+/* Class = "UILabel"; text = "Discount"; ObjectID = "jsm-VB-uN1"; */
+"jsm-VB-uN1.text" = "الخصم";
+
+/* Class = "UILabel"; text = "200 SAR"; ObjectID = "ncF-Tl-bWB"; */
+"ncF-Tl-bWB.text" = "200 SAR";
+
+/* Class = "UILabel"; text = "Delivery address"; ObjectID = "qYE-cO-3Lc"; */
+"qYE-cO-3Lc.text" = "عنوان التوصيل";
+
+/* Class = "UILabel"; text = "Delivery address"; ObjectID = "qYE-cO-3Lc"; */
+"g2z-XU-phe.text" = "سعر التوصيل";
+
+/* Class = "UILabel"; text = "Any Notes ?"; ObjectID = "s5L-Cq-vrl"; */
+"s5L-Cq-vrl.text" = "هل لديك ملاحظات ؟";
+
+/* Class = "UILabel"; text = "Delivery address"; ObjectID = "YIC-Ai-hM9"; */
+"YIC-Ai-hM9.text" = "عنوان التوصيل";
+
+/* Class = "UILabel"; text = "Have discount coupon?"; ObjectID = "tJU-Lg-3cj"; */
+"tJU-Lg-3cj.text" = "لديك كوبون خصم ؟";
+
+/* Class = "UIButton"; normalTitle = "Order Now"; ObjectID = "wef-6Q-tuY"; */
+"wef-6Q-tuY.normalTitle" = "اطلب الأن";
+
+/* Class = "UIButton"; normalTitle = "Change"; ObjectID = "ecn-vm-K9b"; */
+"ecn-vm-K9b.normalTitle" = "تغيير";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "3ys-16-Hns"; */
+"3ys-16-Hns.normalTitle" = "إضافة";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "ykT-58-Aj2"; */
+"ykT-58-Aj2.text" = "date";

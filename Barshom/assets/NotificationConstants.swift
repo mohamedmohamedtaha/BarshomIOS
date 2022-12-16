@@ -14,7 +14,6 @@ enum notificationEnum :String{
 }
 
 class Notify {
-    
   
   static func post(_ name:notificationEnum,object: Any?){
     NotificationCenter.default.post(name: NSNotification.Name(rawValue: name.rawValue), object: object)

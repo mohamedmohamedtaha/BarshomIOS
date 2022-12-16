@@ -12,6 +12,7 @@ import SideMenu
 enum MenuType {
   case client,trader,driver
 }
+
 class sideMenu {
   
   var img:UIImage?
@@ -39,7 +40,7 @@ class sideMenu {
    func openMenu(_ v:UIViewController,type:MenuType){
     updateMenus()
     let vc = AppStoryboard.sideMenu.instance.instantiateViewController(withIdentifier: SideMenuNavigationController.identifier) as! SideMenuNavigationController
-    if Language.currentLanguage() == "ar" {
+    if LanguageManager.isArabic {
       vc.leftSide = false
     }else{
       vc.leftSide = true

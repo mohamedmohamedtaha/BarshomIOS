@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "C4G-qK-Na4"; */
+"C4G-qK-Na4.text" = "السعر";
+
+/* Class = "UILabel"; text = "Tomato"; ObjectID = "Kq0-02-sMg"; */
+"Kq0-02-sMg.text" = "Tomato";
+
+/* Class = "UILabel"; text = "Quantity:"; ObjectID = "Rq4-kp-lZg"; */
+"Rq4-kp-lZg.text" = "الكمية :";
+
+/* Class = "UILabel"; text = "Cat Name"; ObjectID = "T1z-yY-1TT"; */
+"T1z-yY-1TT.text" = "Cat Name";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "c6k-JH-MdQ"; */
+"c6k-JH-MdQ.text" = "3";
+
+/* Class = "UILabel"; text = "3 box"; ObjectID = "c9e-xl-WHc"; */
+"c9e-xl-WHc.text" = "3 box";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "hkd-aR-Rmh"; */
+"hkd-aR-Rmh.text" = "3";
+
+/* Class = "UILabel"; text = "Total price"; ObjectID = "m7W-Iv-EWy"; */
+"m7W-Iv-EWy.text" = "إجمالي السعر";

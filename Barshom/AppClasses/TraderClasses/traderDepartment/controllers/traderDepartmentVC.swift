@@ -10,26 +10,67 @@ import UIKit
 class traderDepartmentVC: UIViewController {
 
   @IBOutlet weak var collectionView: UICollectionView!
-  
+  var catList = [Category]()
   override func viewDidLoad() {
         super.viewDidLoad()
     handleUI()
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        getCategories()
+    }
   func handleUI(){
     collectionView.register(UINib(nibName: traderDepartmentCell.identifier, bundle: nil), forCellWithReuseIdentifier: traderDepartmentCell.identifier)
     collectionView.dataSource = self
     collectionView.delegate = self
-
+        
   }
 
+    func getCategories()
+    {
+        UserService.shared.getMarketCategory(userId: UserManager.getUserData!.id!) { (dat) in
+            self.catList =  dat
 
+            self.collectionView.reloadData()
+        }
+    }
+    @IBAction func packagesClicked()
+    {
+        let packages = traderPackagesVC.instantiate(.packages)
+        packages.uType = .trader
+        
+        self.show(packages, sender: nil)
+    }
+    @IBAction func addCategoryClicked()
+    {
+        self.performSegue(withIdentifier: "cat", sender: nil)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "details"
+        {
+            let vc = segue.destination as! traderDepartmetsProductsVC
+            vc.selectedCat = sender as! Category
+        }
+    }
 }
 
 extension traderDepartmentVC :traderDepartmentDelegate{
-  func details() {
-    performSegue(withIdentifier: "details", sender: nil)
-  }
+    func details(cat: Category) {
+        performSegue(withIdentifier: "details", sender: cat)
+
+    }
+    
+    func delete(cat: Category) {
+        AppHelper.showInfoAlert(message: Resources.Common.deleteCatAlert, confirmBtnTitle: Resources.Common.delete) {
+            UserService.shared.deleteCategory(complainId: cat.cat_id!) { (data) in
+                AppHelper.showSuccessAlertWithoutButtons(vc: self, message:  data["message"] as! String)
+                self.getCategories()
+            }
+        }
+        
+    }
+    
+  
   
 }
 
@@ -43,7 +84,7 @@ extension traderDepartmentVC:UICollectionViewDataSource,UICollectionViewDelegate
   }
   
   private var cellHeight :CGFloat {
-    return cellWidth+(cellWidth/4)
+    return cellWidth+(cellWidth/6)
     
   }
   
@@ -53,14 +94,14 @@ extension traderDepartmentVC:UICollectionViewDataSource,UICollectionViewDelegate
   }
   
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    return 10
+    return catList.count
   }
   
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: traderDepartmentCell.identifier, for: indexPath) as! traderDepartmentCell
     cell.delegate = self
-    cell.cellConfigration(CGSize(width: cellWidth, height: cellHeight))
+    cell.cellConfigration(CGSize(width: cellWidth, height: cellHeight),cat: catList[indexPath.row])
     return cell
    
   }

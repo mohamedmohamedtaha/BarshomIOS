@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -109,10 +109,19 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="bg" destination="nxD-Bh-oqt" id="UGh-ja-jMX"/>
+                <outlet property="commentLb" destination="gis-nA-jrX" id="rID-XF-bPZ"/>
+                <outlet property="namelb" destination="sfu-SS-fBu" id="AdP-Dp-mUf"/>
+                <outlet property="ratingView" destination="XPH-du-Jla" id="45T-tE-BmO"/>
+                <outlet property="userImg" destination="6JA-f9-kYd" id="6WJ-By-6Tr"/>
             </connections>
             <point key="canvasLocation" x="95.652173913043484" y="109.82142857142857"/>
         </tableViewCell>
     </objects>
+    <designables>
+        <designable name="XPH-du-Jla">
+            <size key="intrinsicContentSize" width="79" height="15"/>
+        </designable>
+    </designables>
     <resources>
         <image name="12" width="45" height="45"/>
         <systemColor name="systemBackgroundColor">

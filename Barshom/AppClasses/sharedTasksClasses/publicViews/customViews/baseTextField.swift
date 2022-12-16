@@ -13,7 +13,7 @@ class baseTextField: JVFloatLabeledTextField {
   
     override func draw(_ rect: CGRect) {
         // Drawing code
-        if Language.currentLanguage() == "ar" {
+        if LanguageManager.isArabic {
             self.textAlignment = .right
         }else {
             self.textAlignment = .left

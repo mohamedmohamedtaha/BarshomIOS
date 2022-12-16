@@ -1,0 +1,76 @@
+
+/* Class = "UITextField"; placeholder = "Mobile"; ObjectID = "1XN-HG-Mwr"; */
+"1XN-HG-Mwr.placeholder" = "رقم الجوال";
+
+/* Class = "UILabel"; text = "I agree"; ObjectID = "6dL-0A-aBz"; */
+"6dL-0A-aBz.text" = "أوافق على";
+
+/* Class = "UITextField"; placeholder = "Account Number"; ObjectID = "7gc-rE-Mnz"; */
+"7gc-rE-Mnz.placeholder" = "رقم الحساب";
+
+/* Class = "UILabel"; text = "Add your own logo and own the Ownership rights, or add the shop image from outside"; ObjectID = "81S-wd-CUV"; */
+"81S-wd-CUV.text" = "أضف شعار خاص بك وتملك حقوقه الفكرية إن وجد
+أو أضف صورة لوحة المحل من الخارج";
+
+/* Class = "UITextField"; placeholder = "Owner Name"; ObjectID = "9Fi-NK-A6o"; */
+"9Fi-NK-A6o.placeholder" = "إسم مالك المؤسسة";
+
+/* Class = "UILabel"; text = "Commercial Registration Image"; ObjectID = "F1y-I7-crx"; */
+"F1y-I7-crx.text" = "صورة السجل التجاري";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "GaX-qm-hnQ"; */
+"GaX-qm-hnQ.placeholder" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Store address"; ObjectID = "Jzw-DG-lNU"; */
+"Jzw-DG-lNU.text" = "عنوان المتجر";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "T0E-1p-xHz"; */
+"T0E-1p-xHz.placeholder" = "كود العميل";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "MQy-6W-Tcf"; */
+"MQy-6W-Tcf.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Store Name"; ObjectID = "QAW-bo-Qr9"; */
+"QAW-bo-Qr9.placeholder" = "إسم المتجر";
+
+/* Class = "UITextField"; placeholder = "E-mail Address"; ObjectID = "SXi-Rm-mR6"; */
+"SXi-Rm-mR6.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Bank Name"; ObjectID = "Sk7-IJ-Qqo"; */
+"Sk7-IJ-Qqo.placeholder" = "إسم البنك";
+
+/* Class = "UINavigationItem"; title = "Edit Profile"; ObjectID = "VrZ-Sr-YE7"; */
+"VrZ-Sr-YE7.title" = "تسجيل متجر";
+
+/* Class = "UITextField"; placeholder = "Retype Password"; ObjectID = "Wqf-wL-X56"; */
+"Wqf-wL-X56.placeholder" = "تأكيد كلمة المرور";
+
+/* Class = "UILabel"; text = "Store address"; ObjectID = "YVH-VV-3uv"; */
+"YVH-VV-3uv.text" = "عنوان المتجر";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "Yet-Kv-4j7"; */
+"Yet-Kv-4j7.placeholder" = "إسم المستخدم";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Z52-vK-Y8y"; */
+"Z52-vK-Y8y.normalTitle" = "تسجيل";
+
+/* Class = "UITextField"; placeholder = "Store Type"; ObjectID = "aL1-f4-73P"; */
+"aL1-f4-73P.placeholder" = "نوع المتجر";
+
+/* Class = "UILabel"; text = "Store License Image"; ObjectID = "fvq-ov-v1y"; */
+"fvq-ov-v1y.text" = "صورة رخصة المحل";
+
+/* Class = "UILabel"; text = "✔︎"; ObjectID = "h6d-xS-zgb"; */
+"h6d-xS-zgb.text" = "✔︎";
+
+/* Class = "UITextField"; placeholder = "Swift Code"; ObjectID = "oDN-yb-gox"; */
+"oDN-yb-gox.placeholder" = "سويفت كود";
+
+/* Class = "UILabel"; text = "Store address"; ObjectID = "pOI-27-ixm"; */
+"pOI-27-ixm.text" = "عنوان المتجر";
+
+/* Class = "UIButton"; normalTitle = "Change"; ObjectID = "rYH-P0-h3j"; */
+"rYH-P0-h3j.normalTitle" = "تغيير";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "tT7-PB-JrJ"; */
+"tT7-PB-JrJ.normalTitle" = "إضافة";

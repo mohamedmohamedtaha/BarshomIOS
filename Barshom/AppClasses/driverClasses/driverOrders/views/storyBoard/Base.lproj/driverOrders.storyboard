@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jR6-ui-NTG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Orders-->
+        <scene sceneID="1ex-H7-r7P">
+            <objects>
+                <viewController storyboardIdentifier="driverOrderVC" id="2au-OE-18V" customClass="driverOrderVC" customModule="Barshom" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zSg-gX-eCm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Om7-Ow-ejJ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="zHS-nh-JZi"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fDo-0a-oOu">
+                                    <size key="itemSize" width="129" height="53"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="eOk-AD-yVe">
+                                        <rect key="frame" x="0.0" y="0.0" width="129" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="PR3-vg-Ers">
+                                            <rect key="frame" x="0.0" y="0.0" width="129" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="129" height="50"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="2au-OE-18V" id="EZa-aJ-Eik"/>
+                                    <outlet property="delegate" destination="2au-OE-18V" id="9QE-h4-nHj"/>
+                                </connections>
+                            </collectionView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6ZN-sZ-91A">
+                                <rect key="frame" x="0.0" y="148" width="414" height="714"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2au-OE-18V" id="wfp-P1-ddo"/>
+                                    <outlet property="delegate" destination="2au-OE-18V" id="1Ub-un-gOT"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5bR-NO-Qo0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6ZN-sZ-91A" firstAttribute="leading" secondItem="5bR-NO-Qo0" secondAttribute="leading" id="6AR-Wk-IkW"/>
+                            <constraint firstItem="5bR-NO-Qo0" firstAttribute="trailing" secondItem="6ZN-sZ-91A" secondAttribute="trailing" id="8UH-d3-oR0"/>
+                            <constraint firstItem="6ZN-sZ-91A" firstAttribute="top" secondItem="Om7-Ow-ejJ" secondAttribute="bottom" constant="10" id="Oa1-Og-r2s"/>
+                            <constraint firstItem="Om7-Ow-ejJ" firstAttribute="top" secondItem="5bR-NO-Qo0" secondAttribute="top" id="VVy-xS-Vqb"/>
+                            <constraint firstItem="5bR-NO-Qo0" firstAttribute="bottom" secondItem="6ZN-sZ-91A" secondAttribute="bottom" id="ZGs-hW-MJU"/>
+                            <constraint firstItem="5bR-NO-Qo0" firstAttribute="trailing" secondItem="Om7-Ow-ejJ" secondAttribute="trailing" id="eNW-DQ-s2S"/>
+                            <constraint firstItem="Om7-Ow-ejJ" firstAttribute="leading" secondItem="zSg-gX-eCm" secondAttribute="leading" id="vZl-3f-B0C"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="My Orders" id="rel-gr-gXc">
+                        <barButtonItem key="backBarButtonItem" title=" " id="DW1-Vq-fCX"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="JDt-Sy-mJ0">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mzS-JE-3nq">
+                                <rect key="frame" x="20" y="10" width="32" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="menu"/>
+                                <connections>
+                                    <action selector="menuAction:" destination="2au-OE-18V" eventType="touchUpInside" id="w8g-HG-BjC"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="Emy-HN-AeR">
+                            <segmentedControl key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="bordered" selectedSegmentIndex="0" id="gsn-dy-OEx">
+                                <rect key="frame" x="269" y="5.5" width="125" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <segments>
+                                    <segment title="Enable"/>
+                                    <segment title="Disable"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" red="0.93725490199999995" green="0.72549019609999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="hrBorderColor">
+                                        <color key="value" red="0.93725490199999995" green="0.72549019609999998" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="hrCornerRadius">
+                                        <real key="value" value="16.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="hrBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="indexChanged:" destination="2au-OE-18V" eventType="valueChanged" id="r12-lm-6qi"/>
+                                </connections>
+                            </segmentedControl>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="receiveOrdersSC" destination="gsn-dy-OEx" id="Kxd-xN-RdE"/>
+                        <outlet property="sectionsCollection" destination="Om7-Ow-ejJ" id="LZb-ho-Tvr"/>
+                        <outlet property="tableView" destination="6ZN-sZ-91A" id="1QZ-6n-Gsc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Stg-Q4-0ga" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1095.6521739130435" y="144.64285714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zxA-Ak-7D1">
+            <objects>
+                <navigationController storyboardIdentifier="driverNav" automaticallyAdjustsScrollViewInsets="NO" id="jR6-ui-NTG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yBc-4P-n0F">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2au-OE-18V" kind="relationship" relationship="rootViewController" id="TvV-gZ-F6J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wHJ-8p-fgE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185.50724637681162" y="144.64285714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menu" width="32" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

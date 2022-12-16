@@ -29,10 +29,13 @@ enum AppStoryboard : String {
   case forgertPassword
   case terms
   case contactUs
+  case faq
   case wallet
   case language
   case traderOrders
   case traderProfile
+  case registerTrader
+  case registerDriver
   case traderDepartment
   case driverOrders
   case driverProfile

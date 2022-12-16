@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "Order Now"; ObjectID = "0DR-Aw-77e"; */
+"0DR-Aw-77e.normalTitle" = "اطلب الأن";
+
+/* Class = "UILabel"; text = "Fast Order"; ObjectID = "95q-RG-EI6"; */
+"95q-RG-EI6.text" = "طلب سريع";
+
+/* Class = "UITabBarItem"; title = "Notifications"; ObjectID = "9TW-xJ-sI0"; */
+"9TW-xJ-sI0.title" = "الإشعارات";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "AOC-u4-52Q"; */
+"AOC-u4-52Q.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Notification"; ObjectID = "HqT-2Y-sKX"; */
+"HqT-2Y-sKX.title" = "الإشعارات";
+
+/* Class = "UIButton"; normalTitle = "Order Now"; ObjectID = "KDA-gV-nk8"; */
+"KDA-gV-nk8.normalTitle" = "اطلب الأن";
+
+/* Class = "UIButton"; normalTitle = "Enter to Store"; ObjectID = "SU6-im-Yyk"; */
+"SU6-im-Yyk.normalTitle" = "دخول المتاجر";
+
+/* Class = "UITabBarItem"; title = "My Orders"; ObjectID = "UdR-hc-wPG"; */
+"UdR-hc-wPG.title" = "طلباتي";
+
+/* Class = "UITabBarItem"; title = "My Account"; ObjectID = "auC-pA-07P"; */
+"auC-pA-07P.title" = "حسابي";
+
+/* Class = "UITabBarItem"; title = "Cart"; ObjectID = "bRR-HG-xEy"; */
+"bRR-HG-xEy.title" = "السلة";
+
+/* Class = "UILabel"; text = "Barshom Store"; ObjectID = "osR-eE-zpT"; */
+"osR-eE-zpT.text" = "متجر برشوم";
+
+/* Class = "UILabel"; text = "Other Stores"; ObjectID = "yTK-6L-WD3"; */
+"yTK-6L-WD3.text" = "المتاجر الأخرى";

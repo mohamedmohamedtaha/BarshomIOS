@@ -1,0 +1,34 @@
+
+/* Class = "UILabel"; text = "Quantity : 12 Killo"; ObjectID = "2e7-az-lp0"; */
+"2e7-az-lp0.text" = "Quantity : 12 Killo";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "CX9-Co-Ngv"; */
+"CX9-Co-Ngv.normalTitle" = "تعديل";
+
+/* Class = "UILabel"; text = "30 SAR"; ObjectID = "EOQ-zA-6jw"; */
+"EOQ-zA-6jw.text" = "30 SAR";
+
+/* Class = "UILabel"; text = "Tomato"; ObjectID = "Vuv-ZG-SrO"; */
+"Vuv-ZG-SrO.text" = "Tomato";
+
+/* Class = "UILabel"; text = "30 SAR"; ObjectID = "ZOu-N6-cj5"; */
+"ZOu-N6-cj5.text" = "30 SAR";
+
+/* Class = "UILabel"; text = "Box price"; ObjectID = "cO1-Z9-wjc"; */
+"cO1-Z9-wjc.text" = "سعر الصندوق";
+
+"Hh7-go-zi9.text" = "سعر الحبة";
+
+
+
+/* Class = "UILabel"; text = "30 SAR"; ObjectID = "hQG-k4-JWQ"; */
+"hQG-k4-JWQ.text" = "30 SAR";
+
+/* Class = "UILabel"; text = "Quantity : 12 Killo"; ObjectID = "hsP-vn-5vc"; */
+"hsP-vn-5vc.text" = "Quantity : 12 Killo";
+
+/* Class = "UILabel"; text = "Kilo price"; ObjectID = "opJ-gm-1jL"; */
+"opJ-gm-1jL.text" = "سعر الكيلو";
+
+/* Class = "UILabel"; text = "30 SAR"; ObjectID = "wbT-2c-qdr"; */
+"wbT-2c-qdr.text" = "30 SAR";

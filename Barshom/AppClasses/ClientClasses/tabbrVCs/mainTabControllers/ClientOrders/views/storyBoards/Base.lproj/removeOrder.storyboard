@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QUy-O3-Upy">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Modal view-->
+        <scene sceneID="idw-QM-uiO">
+            <objects>
+                <viewController storyboardIdentifier="cancelOrderVC" title="Modal view" id="CBk-8j-1uh" customClass="cancelOrderVC" customModule="Barshom" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zIX-qU-w2T"/>
+                        <viewControllerLayoutGuide type="bottom" id="MDZ-1r-NWD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LAN-RS-mFu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popcancel" translatesAutoresizingMaskIntoConstraints="NO" id="his-yE-JGa">
+                                <rect key="frame" x="157" y="70" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="iHk-C8-Gya"/>
+                                    <constraint firstAttribute="height" constant="100" id="mxY-Y5-KoR"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZX9-Gu-GCf">
+                                <rect key="frame" x="30" y="231" width="354" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MKd-6E-naf">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="128"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4PJ-1p-KLw" customClass="JVFloatLabeledTextView">
+                                                <rect key="frame" x="10" y="10" width="334" height="108"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Cancel Text .."/>
+                                                </userDefinedRuntimeAttributes>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="4PJ-1p-KLw" secondAttribute="trailing" constant="10" id="7FY-Dj-7iY"/>
+                                            <constraint firstAttribute="bottom" secondItem="4PJ-1p-KLw" secondAttribute="bottom" constant="10" id="WIN-fm-TX4"/>
+                                            <constraint firstItem="4PJ-1p-KLw" firstAttribute="top" secondItem="MKd-6E-naf" secondAttribute="top" constant="10" id="jsQ-4P-nSq"/>
+                                            <constraint firstAttribute="height" constant="128" id="nJo-9Q-7iR"/>
+                                            <constraint firstItem="4PJ-1p-KLw" firstAttribute="leading" secondItem="MKd-6E-naf" secondAttribute="leading" constant="10" id="o0B-Wy-Yh8"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="hrBorderColor">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hrBorderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hrCornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ueo-3n-tUO">
+                                <rect key="frame" x="58" y="379" width="298" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6C7-pG-zJe">
+                                        <rect key="frame" x="0.0" y="0.0" width="141.5" height="50"/>
+                                        <color key="backgroundColor" red="0.40943875909999999" green="0.72380548720000004" blue="0.23350676889999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="KJH-K8-2YL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Send">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hrCornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="hrBorderColor">
+                                                <color key="value" red="0.40943875909999999" green="0.72380548720000004" blue="0.23350676889999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hrBorderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="submitClicked:" destination="CBk-8j-1uh" eventType="touchUpInside" id="qTb-7P-jGS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uD-JU-asi">
+                                        <rect key="frame" x="156.5" y="0.0" width="141.5" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="dNl-12-7dp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" red="0.40943875909999999" green="0.72380548720000004" blue="0.23350676889999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hrCornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="hrBorderColor">
+                                                <color key="value" red="0.40943875909999999" green="0.72380548720000004" blue="0.23350676889999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="hrBorderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="dissmissAction:" destination="CBk-8j-1uh" eventType="touchUpInside" id="lHz-js-bJy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9uD-JU-asi" firstAttribute="width" secondItem="6C7-pG-zJe" secondAttribute="width" id="Hhk-1u-gAG"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You want To Cancel Your Order?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXv-AB-1t7">
+                                <rect key="frame" x="20" y="188" width="374" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="zfQ-FG-O71"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LtW-K7-DlZ"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GXv-AB-1t7" firstAttribute="leading" secondItem="LtW-K7-DlZ" secondAttribute="leading" constant="20" id="30D-rY-FB1"/>
+                            <constraint firstItem="his-yE-JGa" firstAttribute="centerX" secondItem="LtW-K7-DlZ" secondAttribute="centerX" id="52d-wH-XBu"/>
+                            <constraint firstItem="GXv-AB-1t7" firstAttribute="top" secondItem="his-yE-JGa" secondAttribute="bottom" constant="18" id="5Fh-eg-qvS"/>
+                            <constraint firstItem="ZX9-Gu-GCf" firstAttribute="leading" secondItem="LtW-K7-DlZ" secondAttribute="leading" constant="30" id="MQT-OS-cfe"/>
+                            <constraint firstItem="his-yE-JGa" firstAttribute="top" secondItem="LtW-K7-DlZ" secondAttribute="top" constant="26" id="MvI-e4-Sll"/>
+                            <constraint firstItem="LtW-K7-DlZ" firstAttribute="trailing" secondItem="ZX9-Gu-GCf" secondAttribute="trailing" constant="30" id="NJY-2h-bCE"/>
+                            <constraint firstItem="ZX9-Gu-GCf" firstAttribute="top" secondItem="GXv-AB-1t7" secondAttribute="bottom" constant="18" id="ltK-Nu-lks"/>
+                            <constraint firstItem="ueo-3n-tUO" firstAttribute="top" secondItem="ZX9-Gu-GCf" secondAttribute="bottom" constant="20" id="n4q-i9-kx2"/>
+                            <constraint firstItem="ueo-3n-tUO" firstAttribute="centerX" secondItem="MKd-6E-naf" secondAttribute="centerX" id="qmG-46-g72"/>
+                            <constraint firstItem="LtW-K7-DlZ" firstAttribute="trailing" secondItem="GXv-AB-1t7" secondAttribute="trailing" constant="20" id="rGT-8n-9gR"/>
+                            <constraint firstItem="6C7-pG-zJe" firstAttribute="width" secondItem="MKd-6E-naf" secondAttribute="width" multiplier="0.4" id="yhi-Zj-HQc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Complaint" id="k52-3e-ksd">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="uyi-Yr-D7X">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ap1-6N-HmO">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="✕">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="text" destination="4PJ-1p-KLw" id="dKL-42-vPZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2pO-5V-Djm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2094" y="217"/>
+        </scene>
+        <!--App Nav Controller-->
+        <scene sceneID="vyL-XX-BX6">
+            <objects>
+                <navigationController storyboardIdentifier="AppNavController" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="QUy-O3-Upy" customClass="AppNavController" customModule="Barshom" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tmk-cW-WZQ">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CBk-8j-1uh" kind="relationship" relationship="rootViewController" id="sDt-4T-bfy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C9m-DW-UQW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1364" y="217"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="popcancel" width="100" height="100"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

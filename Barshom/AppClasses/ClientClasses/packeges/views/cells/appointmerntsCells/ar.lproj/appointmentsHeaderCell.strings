@@ -1,0 +1,32 @@
+/* Class = "UILabel"; text = "Mid"; ObjectID = "5rT-Bw-WHg"; */
+"5rT-Bw-WHg.text" = "بعد الظهر";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "JJp-Vk-qIq"; */
+"JJp-Vk-qIq.text" = "الى";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "Upg-xS-pR5"; */
+"Upg-xS-pR5.text" = "من";
+
+/* Class = "UILabel"; text = "Day"; ObjectID = "4wz-Tw-G3w"; */
+"4wz-Tw-G3w.text" = "اليوم";
+
+/* Class = "UILabel"; text = "Pm"; ObjectID = "EaZ-0i-UUE"; */
+"EaZ-0i-UUE.text" = "فترة مسائية";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "JgM-8K-mlU"; */
+"JgM-8K-mlU.text" = "الى";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "Maj-9g-jYX"; */
+"Maj-9g-jYX.text" = "الى";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "jPU-tp-iDW"; */
+"jPU-tp-iDW.text" = "title";
+
+/* Class = "UILabel"; text = "Am"; ObjectID = "mwx-Wd-9a3"; */
+"mwx-Wd-9a3.text" = "فترة صباحية";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "oA8-vC-Abw"; */
+"oA8-vC-Abw.text" = "من";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "sqr-0s-reT"; */
+"sqr-0s-reT.text" = "من";

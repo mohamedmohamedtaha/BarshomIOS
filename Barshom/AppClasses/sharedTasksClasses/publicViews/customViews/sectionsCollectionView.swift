@@ -10,9 +10,11 @@ import UIKit
 
 class topSection {
   var Title:String?
-  
-  init(_ title:String) {
-    Title = title
+  var id:String?
+
+    init(_ title:String,id:String? = "") {
+        Title = title
+        self.id = id
   }
 }
 class sectionsCollectionView:NSObject{
@@ -27,6 +29,8 @@ class sectionsCollectionView:NSObject{
   var Departmets = [topSection]()
   
   func collectionConfigration(_ collection:UICollectionView,dataSource:[topSection]){
+    collection.semanticContentAttribute = LanguageManager.isArabic ? .forceRightToLeft : .forceLeftToRight
+    collection.collectionViewLayout = ArabicCollectionFlow()
       Departmets = dataSource
       sectionsCollection = collection
       sectionsCollection.frame = collection.frame
@@ -40,7 +44,12 @@ class sectionsCollectionView:NSObject{
     if fromOrders {
       sectionWidth = (Constants.ScreenWidth / CGFloat(Departmets.count))
     }
+      let layout = UICollectionViewFlowLayout()
+      layout.scrollDirection = .horizontal
+      sectionsCollection.collectionViewLayout = layout
       sectionsCollection.reloadData()
+      sectionsCollection.scrollToItem(at: IndexPath(row: 0, section: 0), at: .centeredHorizontally, animated: true)
+
     
   }
   
@@ -84,33 +93,7 @@ extension sectionsCollectionView:UICollectionViewDataSource, UICollectionViewDel
   
   func centerSelectedItem(_ indexPath: IndexPath) {
     
-      let collectionView = sectionsCollection!
-      if (indexPath.row == 0 || indexPath.row == 1 || indexPath.row == 2){
-          let index = IndexPath(row: 0, section: indexPath.section)
-          let cell = collectionView.cellForItem(at: index)
-          var offset = CGPoint()
-          if Language.currentLanguage() == "ar" {
-              offset = CGPoint(x: ((cell?.center.x)!)-(collectionView.frame.width)+CGFloat(sectionWidth/2) , y: 0)
-          }else {
-               offset = CGPoint(x: -(cell?.center.x)!+CGFloat(sectionWidth/2)  , y: 0)
-          }
-          collectionView.setContentOffset(offset, animated: true)
-      }else if (indexPath.row == Departmets.count-1 || indexPath.row == Departmets.count-2){
-          let index = IndexPath(row: Departmets.count-1, section: indexPath.section)
-          let cell = collectionView.cellForItem(at: index)
-          var offset = CGPoint()
-          if Language.currentLanguage() == "ar" {
-              let x = (-(cell?.center.x ?? CGFloat(0)))
-              offset = CGPoint(x: x+CGFloat(sectionWidth/2)  , y: 0)
-          }else {
-               offset = CGPoint(x: ((cell?.center.x ?? CGFloat(0)))-(collectionView.frame.width)+CGFloat(sectionWidth/2) , y: 0)
-          }
-          collectionView.setContentOffset(offset, animated: true)
-      }else{
-          let cell = collectionView.cellForItem(at: indexPath)
-          let offset = CGPoint(x: (cell?.center.x)! - collectionView.frame.width/2   , y: 0)
-          collectionView.setContentOffset(offset, animated: true)
-      }
+    sectionsCollection.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
     sectionsCollection.reloadData()
   }
   

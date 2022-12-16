@@ -12,7 +12,7 @@ class backButton: UIButton {
 
     override func draw(_ rect: CGRect) {
 
-      if Language.currentLanguage() == "ar" {
+      if LanguageManager.isArabic {
         self.setImage(UIImage(named: "backAr"), for: .normal)
       }else {
         self.setImage(UIImage(named: "backEn"), for: .normal)

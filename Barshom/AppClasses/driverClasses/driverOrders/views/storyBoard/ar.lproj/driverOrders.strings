@@ -1,0 +1,12 @@
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "DW1-Vq-fCX"; */
+"DW1-Vq-fCX.title" = " ";
+
+/* Class = "UISegmentedControl"; gsn-dy-OEx.segmentTitles[0] = "Enable"; ObjectID = "gsn-dy-OEx"; */
+"gsn-dy-OEx.segmentTitles[0]" = "Enable";
+
+/* Class = "UISegmentedControl"; gsn-dy-OEx.segmentTitles[1] = "Disable"; ObjectID = "gsn-dy-OEx"; */
+"gsn-dy-OEx.segmentTitles[1]" = "Disable";
+
+/* Class = "UINavigationItem"; title = "My Orders"; ObjectID = "rel-gr-gXc"; */
+"rel-gr-gXc.title" = "طلباتي";
