@@ -39,6 +39,7 @@ class clientSideMenu {
   func getRawValue(_ t:clientMenuType)->String{
     return t.rawValue
   }
+    
   func cleintMenuDic() -> [String:(UIImage?,Int)] {
     return [
       getRawValue(.Profile):(#imageLiteral(resourceName: "info"),1),

@@ -13,6 +13,8 @@ import Photos
 import AVFoundation
 import MobileCoreServices
 import DropDown
+import FirebaseMessaging
+
 class registerTraderTVC: UITableViewController ,MapVCDelegate,UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
   @IBOutlet weak var nameTxt: RVTxtFaild!
@@ -37,6 +39,10 @@ class registerTraderTVC: UITableViewController ,MapVCDelegate,UIImagePickerContr
     @IBOutlet weak var userCodeTxt: RVTxtFaild!
     @IBOutlet weak var clickHereLb: UILabel!
 
+    
+    @IBOutlet weak var storeLicenseCell: UITableViewCell!
+    
+    
     var isAgree = false
     var dropDown = DropDown()
     var allCities = [Category]()
@@ -218,10 +224,10 @@ class registerTraderTVC: UITableViewController ,MapVCDelegate,UIImagePickerContr
                 "name":nameTxt.text!,
                 "mobile":mobileTxt.text!,
               "email":emailTxt.text!,
-              "bankName":bankNameTxt.text!,
-              "accountName":accountNumberTxt.text!,
-              "accountNumber":swiftCodeTxt.text!,
-              "ipanNumber":swiftCodeTxt.text!,
+//              "bankName":bankNameTxt.text!,
+//              "accountName":accountNumberTxt.text!,
+//              "accountNumber":swiftCodeTxt.text!,
+//              "ipanNumber":swiftCodeTxt.text!,
                 "mapLocation":"\(selectedAddress!.lat),\(selectedAddress!.lng)",
                 "userType":"company",
                 "yourFriendCode":userCodeTxt.text!,
@@ -242,26 +248,77 @@ class registerTraderTVC: UITableViewController ,MapVCDelegate,UIImagePickerContr
                 if let x = data as? [String : Any]
                 {
                     let user = x["return"] as! [String : Any]
-                    AppHelper.showAlertWithTextField(textplaceholder: Resources.Login.activationCode, title: Resources.Login.activate, btnTitle: Resources.Login.activate) { [self] (code) in
-                        let parms = ["mobile":mobileTxt.text!,"code":code]
-                        UserService.shared.activate(parameters: parms) { (datas,success) in
-                            if success
-                            {
-                                UserManager.saveUserInfo(user: datas as! [String : Any])
-                                AppHelper.showSuccessAlert(message: Resources.Login.activationSuccess, confirmBtnTitle: Resources.Common.ok) {
-                                    self.MakeHomeRoot()
-                                }
-                            }
+                    AppHelper.showSuccessAlertWithoutButtons(vc: self, message: "تم انشاء الحساب بنجاح وسيتم التواصل معك قريبا")
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+                        let nav = AppStoryboard.registration.instance.instantiateViewController(withIdentifier: "loginNav")
+                        Utilities.root(nav)
+
                         
-                        }
+//                        self.goToLogin();
+
+                    })
+
+//                    Messaging.messaging().token  { [self] (result, error) in
+//                        AppHelper.showAlertWithTextField(textplaceholder: Resources.Login.activationCode, title: Resources.Login.activate, btnTitle: Resources.Login.activate) { [self] (code) in
+//                            let parms = ["mobile":mobileTxt.text!,"code":code]
+//                            let parameters = [
+//                                "mobile": mobileTxt.text!,
+//                                "playerId": result ?? "",
+//                                "password": passwordTxt.text!]
+//                            UserService.shared.login(parameter: parameters) { (data,success) in
+//                                if success
+//                                {
+//                                LanguageManager.currentLanguage = LanguageManager.isArabic ? .ar : .en
+//                                self.MakeHomeRoot()
+//                                }
+////                                else
+////                                {
+////                                    AppHelper.showAlertWithTextField(textplaceholder: Resources.Login.activationCode, title: Resources.Login.activate, btnTitle: Resources.Login.activate) { [self] (code) in
+////                                        let parms = ["mobile":mobileTxt.text!,"code":code ]
+////                                        UserService.shared.activate(parameters: parms) { (datas,success) in
+////                                            if success
+////                                            {
+////                                                UserManager.saveUserInfo(user: datas as! [String : Any])
+////                                                AppHelper.showSuccessAlert(message: Resources.Login.activationSuccess, confirmBtnTitle: Resources.Common.ok) {
+////                                                    self.MakeHomeRoot()
+////                                                }
+////                                            }
+////
+////                                        }
+////                                    }
+////                                }
+//
+//                            }
+//                    }
+                   
                         
-                    }
+//                        UserService.shared.activate(parameters: parms) { (datas,success) in
+//                            if success
+//                            {
+//                                UserManager.saveUserInfo(user: datas as! [String : Any])
+//                                AppHelper.showSuccessAlert(message: Resources.Login.activationSuccess, confirmBtnTitle: Resources.Common.ok) {
+//                                    self.MakeHomeRoot()
+//                                }
+//                            }
+//
+//                        }
+                        
+//                    }
                     
                 }
                 
             }
         }
     }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if (indexPath.row == 7 || indexPath.row == 8 || indexPath.row == 9 || indexPath.row == 11 || indexPath.row == 12){
+            return 0
+        }
+        return UITableView.automaticDimension
+        
+    }
+    
     
     func showImagePicker()
     {

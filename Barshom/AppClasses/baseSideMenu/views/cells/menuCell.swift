@@ -19,7 +19,18 @@ class menuCell: UITableViewCell {
   
   func cellConfigration(_ m:sideMenu){
     img.image = m.img
-    titleLb.text = m.title!.localized()
+      if m.title! == "Store Information" {
+          if UserManager.getUserData?.cat_name == "متاجر"{
+              titleLb.text = "Store Information".localized()
+          }else {
+              titleLb.text = "Supplier Information".localized()
+
+            }
+          
+      }else {
+          titleLb.text = m.title!.localized()
+       
+      }
   }
 
 

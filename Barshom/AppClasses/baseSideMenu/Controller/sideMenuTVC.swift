@@ -52,4 +52,29 @@ class sideMenuTVC: baseTVC {
   override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
     return 110+UIApplication.shared.statusBarFrame.height
   }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        if type == .trader{
+            
+            if indexPath.row == 2{
+                if UserManager.getUserData?.cat_name == "متاجر"{
+                    return UITableView.automaticDimension
+                }else {
+                    return 0
+                }
+            }
+            
+//            if sideMenuView.getMenu(type)[indexPath.row].title == "Holesale market" ||  sideMenuView.getMenu(type)[indexPath.row].title == "سوق الجملة"{
+//                if UserManager.getUserData?.cat_name == "متاجر"{
+//                    return UITableView.automaticDimension
+//                }else {
+//                    return 0
+//                }
+//            }
+        }
+        
+        return UITableView.automaticDimension
+
+    }
 }

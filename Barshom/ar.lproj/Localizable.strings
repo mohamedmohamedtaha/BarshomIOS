@@ -22,7 +22,9 @@
 "All appointments available" = "كل المواعيد المتاحة";
 "Products In Package" = "المنتجات داخل الباقة";
 "Driver Information" = "بيانات المندوب";
-"Store Information" = "بيانات المتجر";
+"Store Information" = "بيانات التاجر";
+"Supplier Information" = "بيانات المورد";
+
 "Categories" = "الأقسام";
 "Balance" = "الرصيد";
 "Do you want to remove this product ?" = "هل تريد حذف هذا المنتج ؟";

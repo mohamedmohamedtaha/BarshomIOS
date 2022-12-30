@@ -28,7 +28,9 @@ class paymentTypeActionVC: UITableViewController ,imgsCollectionDelegate{
     @IBOutlet weak var walletBG: UIView!
   @IBOutlet weak var epaymentBG: UIView!
     @IBOutlet weak var bankBG: UIView!
+    @IBOutlet weak var accountNumberView: UIStackView!
 
+    
     @IBOutlet weak var todayBG: UIView!
     @IBOutlet weak var tomorrowBG: UIView!
     @IBOutlet weak var todaySV: UIView!
@@ -37,8 +39,8 @@ class paymentTypeActionVC: UITableViewController ,imgsCollectionDelegate{
     @IBOutlet weak var cashSV: UIView!
     @IBOutlet weak var netSV: UIView!
     @IBOutlet weak var walletSV: UIView!
-  @IBOutlet weak var epaymentSV: UIView!
-  @IBOutlet weak var bankSV: UIView!
+    @IBOutlet weak var epaymentSV: UIView!
+    @IBOutlet weak var bankSV: UIView!
     
     @IBOutlet weak var todayLbl: UILabel!
     @IBOutlet weak var tomorrowLbl: UILabel!
@@ -232,6 +234,14 @@ class paymentTypeActionVC: UITableViewController ,imgsCollectionDelegate{
     }
   func selectType(_ img:UIImageView,BG:UIView,SV:UIView){
     clearViewa()
+      
+      if type == .bank{
+          self.accountNumberView.isHidden = false
+      }else {
+          self.accountNumberView.isHidden = true
+
+      }
+      
     BG.layer.borderColor = Color.mainColor?.cgColor
     BG.removeShadow()
     SV.backgroundColor = Color.tintColor
